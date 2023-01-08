@@ -13,11 +13,11 @@ body{
 }
 
 .raised {
-  box-shadow: 0rem 0rem 1rem 0.5rem #0005;
+  box-shadow: 0rem 0rem 1rem 0.5rem rgba(76, 86, 226, 0.85);
 }
 
 .text-raised {
-  text-shadow: 4px 4px 16px #0009;
+  text-shadow: 4px 4px 16px rgba(7, 65, 137, 0.357);
 }
 
 .flex {
@@ -45,13 +45,12 @@ body{
 .card {
   padding: 0.75rem;
   border-radius: 0.5rem;
-  background-color: darkslategray;
+  background-color: rgb(156, 17, 215);
 }
 
 .img-box {
   height: 8rem;
   width: 7rem;
-  border-radius: 0.25rem;
   margin-right: 2.5rem;
   margin-left: 1rem;
   object-fit: cover;
