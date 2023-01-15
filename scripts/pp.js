@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
  
-const currentYear = "2023";
-document.querySelector('#year').textContent = currentYear;
-    
+document.getElementById("year").innerHTML = new Date().getFullYear();
+   
 document.getElementById("#updated").innerHTML = new Date()
   });
