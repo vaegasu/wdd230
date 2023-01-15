@@ -11,8 +11,8 @@ body{
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #2196F3;
+    grid-template-columns: 1, 1, 1;
+    background-color: #dd91b9;
     padding: 10px;
 }
 
