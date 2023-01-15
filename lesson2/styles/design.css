@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cookie&display=swap');
+
 body{
   margin-top: 2rem;
   margin-left: auto;
@@ -6,6 +7,10 @@ body{
   width: 50%;
   font-family: 'Cookie';
   font-size: larger;
+}
+
+.grid-container {
+    display: grid;
 }
 
 .header{
