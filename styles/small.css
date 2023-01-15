@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cookie&display=swap');
+
 body{
   margin-top: 2rem;
   margin-left: auto;
@@ -7,7 +8,20 @@ body{
   font-family: 'Cookie';
   font-size: larger;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto, auto, auto;
+  background-color: #dd91b9;
+  padding: 5px;
+}
 
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
 .header{
   font-family: 'Berkshire Swash';
 }
