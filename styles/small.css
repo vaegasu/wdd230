@@ -58,7 +58,8 @@ body{
 }
 
 .text-yellow {
-  color: peru;
+  color: rgb(237, 138, 8);
+  font-size: 14px;
 }
 
 .italic {
@@ -71,4 +72,5 @@ body{
 
 footer {
 font-family: Berkshire Swash;
+font-size: 14px;
 }
