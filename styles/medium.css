@@ -1,3 +1,99 @@
 @media only screen and (min-width: 32.5em) {
+
+
+    body{
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        font-family: 'Cookie';
+        font-size: larger;
+      }
+      
+      .grid-container {
+          display: grid;
+          grid-template-columns: 1, 1, 1;
+          background-color: #dd91b9;
+          padding: 10px;
+      }
+      
+      .grid-item {
+          background-color: rgba(255, 255, 255, 0.8);
+          border: 1px solid rgba(0, 0, 0, 0.8);
+          padding: 20px;
+          font-size: 30px;
+          text-align: center;
+      }
+      
+      .header{
+        font-family: 'Berkshire Swash';
+      }
+      
+      .flex {
+        display: flex;
+      }
+      
+      .j-center{
+        justify-content: center;
+      }
+      
+      .f-column{
+        flex-direction: column;
+      }
+      
+      .a-center{
+        align-items: center;
+      
+      }
+      
+      .center{
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .card {
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        background-color: rgb(125, 88, 110);
+      }
+      
+      .img-box {
+        height: 8rem;
+        width: 7rem;
+        margin-right: 2.5rem;
+        margin-left: 1rem;
+        object-fit: cover;
+      }
+      
+      .link-box {
+        border-bottom: 0.1rem solid #c5c5c5;
+        border-top: 0.1rem solid #c5c5c5;
+      }
+      
+      .text-white {
+        color: white;
+      }
+      
+      .text-yellow {
+        color: rgb(237, 138, 8);
+        font-size: 14px;
+      }
+      
+      .italic {
+        font-style: italic;
+      }
+      
+      .text-light {
+        color: #454545;
+      }
+      
+      .apple .bearcreek .lush {
+      text-align: center;
+      }
+      
+      footer {
+      font-family: Berkshire Swash;
+      font-size: 14px;
+      }
     
 }
