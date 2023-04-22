@@ -8,9 +8,18 @@ header, main, footer {
     max-width: 760px;
 }
 
-header {
+header, footer {
     background-color: #c68c53;
     color: whitesmoke;
     text-align: center;
+}
+
+header {
     padding-left: 1.5rem;
 }
+
+img {
+    float: left;
+    margin: 10px;
+}
+
