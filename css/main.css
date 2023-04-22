@@ -5,4 +5,5 @@ body {
 
 header, main, footer {
     margin: 1.25rem auto;
+    max-width: 760px;
 }
