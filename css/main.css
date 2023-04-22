@@ -2,3 +2,7 @@ body {
     font-size: 18px;
     line-height: 1.5;
 }
+
+header, main, footer {
+    margin: 1.25rem auto;
+}
