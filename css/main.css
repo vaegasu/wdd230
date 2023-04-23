@@ -26,6 +26,8 @@ header, footer {
 header {
     padding-left: 1.5rem;
     font-size: 55px;
+    text-shadow: 2px 2px black;
+
 }
 
 img {
@@ -39,7 +41,8 @@ h1 {
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 40px;
+    text-shadow: 2px 2px grey;
 }
 
 footer {
