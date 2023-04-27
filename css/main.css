@@ -27,7 +27,7 @@ header, footer {
 
 header {
     display: grid;
-    grid: 250px / auto auto;
+    grid: 250px / auto auto auto;
     padding-left: 1.5rem;
     font-size: 45px;
     text-shadow: 2px 2px white;
@@ -41,7 +41,6 @@ img {
 
 h1 {
     grid-column: 2 / 2;
-    margin-left: -250px;
 }
 
 h2 {
