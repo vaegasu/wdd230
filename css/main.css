@@ -51,9 +51,10 @@ h2 {
 }
 
 footer {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 #lastModified {
-    color:#e60000;
+    color:#993333;
+    font-size: 23px;
 }
