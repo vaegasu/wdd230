@@ -55,6 +55,8 @@ footer {
 }
 
 #lastModified {
-    color:#cc3300;
-    font-size: 27px;
+    color:#800000;
+    font-family: "Oranienbaum";
+    font-style: italic;
+    font-size: 23px;
 }
