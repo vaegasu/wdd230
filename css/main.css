@@ -17,10 +17,12 @@ header, main, footer {
 header, footer {
     font-family: "Grand Hotel";
     background-color: #c68c53;
-    color: white;
+    color: #800000;
+    text-shadow: white;
     text-align: center;
     border: 5px solid;
     border-radius: 25px;
+    border-color: #c68c53;
     box-shadow: 10px 10px 5px goldenrod;
 }
 
