@@ -21,6 +21,7 @@ header, footer {
     border: 5px solid;
     border-radius: 25px;
     border-color: #c68c53;
+    color: #800000;
     box-shadow: 10px 10px 5px goldenrod;
 }
 
@@ -29,7 +30,6 @@ header {
     grid: 250px / auto auto;
     padding-left: 1.5rem;
     font-size: 45px;
-    color: #800000;
     text-shadow: 2px 2px white;
 }
 
