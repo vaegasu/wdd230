@@ -18,7 +18,7 @@ header, footer {
     font-family: "Grand Hotel";
     background-color: #c68c53;
     color: #800000;
-    text-shadow: white;
+    text-shadow: whitesmoke;
     text-align: center;
     border: 5px solid;
     border-radius: 25px;
@@ -31,7 +31,7 @@ header {
     grid: 250px / auto auto;
     padding-left: 1.5rem;
     font-size: 45px;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px white;
 }
 
 img {
