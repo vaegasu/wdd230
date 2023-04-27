@@ -17,7 +17,7 @@ header, main, footer {
 header, footer {
     font-family: "Grand Hotel";
     background-color: #c68c53;
-    color: whitesmoke;
+    color: white;
     text-align: center;
     border: 5px solid;
     border-radius: 25px;
@@ -45,7 +45,7 @@ h1 {
 
 h2 {
     font-size: 40px;
-    text-shadow: 2px 2px grey;
+    text-shadow: 2px 2px gray;
 }
 
 footer {
@@ -53,5 +53,5 @@ footer {
 }
 
 #lastModified {
-    color: yellow;
+    color: goldenrod;
 }
