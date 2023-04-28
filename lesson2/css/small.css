@@ -27,7 +27,7 @@ header, footer {
 
 header {
     display: grid;
-    grid: 250px;
+    grid-template-columns: auto;
     padding-left: 1.5rem;
     font-size: 45px;
     text-shadow: 2px 2px white;
@@ -35,6 +35,15 @@ header {
 
 h1 {
     grid-row: 1 / 2;
-    font-size: 50px;
+    font-size: 60px;
     text-shadow: 2px 2px white;
+    margin-bottom: -10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 95%;
+    margin: 20px auto;
 }
