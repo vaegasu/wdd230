@@ -43,7 +43,7 @@ h1 {
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
+    grid-gap: 20px;
     width: 95%;
     margin: 20px auto;
 }
