@@ -1,1 +1,2 @@
-document.querySelector("currentYear").innerHTML = new Date().getFullYear()
+const currentYear = new Date();
+document.querySelector("#currentYear").textContent= currentYear.getFullYear();
