@@ -1,13 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Noto+Serif&family=Oranienbaum&display=swap');
+
+body {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
 main {
-    grid-template-columns: 1fr;
-    grid-gap: 20px 0;
+    font-family: "Oranienbaum";
 }
-main > section {
-    grid-column: 1;
-    width: 90%;
-    max-width: 450px;
-    justify-self: center;
+
+header, main, footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
 }
-section img {
-    max-width: 400px;
+
+header, footer {
+    font-family: "Grand Hotel";
+    background-color: #c68c53;
+    text-align: center;
+    border: 5px solid;
+    border-radius: 25px;
+    border-color: #c68c53;
+    color: #800000;
+    box-shadow: 10px 10px 5px goldenrod;
+}
+
+header {
+    display: grid;
+    grid: 250px;
+    padding-left: 1.5rem;
+    font-size: 45px;
+    text-shadow: 2px 2px white;
+}
+
+h1 {
+    grid-row: 1 / 2;
+    font-size: 45px;
+    text-shadow: 2px 2px white;
 }
