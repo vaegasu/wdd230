@@ -30,20 +30,21 @@ header {
     grid-template-columns: auto;
     padding-left: 1.5rem;
     font-size: 45px;
-    text-shadow: 2px 2px white;
+    text-shadow: 1px 1px white;
 }
 
 h1 {
     grid-row: 1 / 2;
     font-size: 60px;
-    text-shadow: 2px 2px white;
     margin-bottom: -10px;
+    text-shadow: 2px 2px white;
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 40px;
+    text-align: center;
     width: 95%;
     margin: 20px auto;
 }
