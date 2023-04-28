@@ -51,6 +51,7 @@ main {
 h3 {
     margin: 0;
     padding: 10px;
+    text-align: center;
     /* text-align: center; */
     background: #c68c53;
     color: #800000;
