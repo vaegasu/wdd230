@@ -29,14 +29,18 @@ header {
     display: grid;
     grid-template-columns: auto;
     padding-left: 1.5rem;
-    font-size: 45px;
+    font-size: 47px;
     text-shadow: 1px 1px white;
+}
+
+footer {
+    font-size: 25px;
 }
 
 h1 {
     grid-row: 1 / 2;
-    font-size: 60px;
-    margin-bottom: -10px;
+    font-size: 70px;
+    margin-bottom: 3px;
     text-shadow: 2px 2px white;
 }
 
