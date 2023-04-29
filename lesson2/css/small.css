@@ -1,4 +1,5 @@
 @media (max-width: 649px) {
+
     main {
         grid-template-columns: 1fr;
         grid-gap: 20px 0;
@@ -14,4 +15,5 @@
     section img {
         max-width: 400px;
     }
+    
 }
