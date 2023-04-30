@@ -3,6 +3,5 @@ main {
 }
 main > section:nth-of-type(3) {
     grid-column: span 2;
-    width: 50%;
     justify-self: center;
 }
