@@ -33,6 +33,7 @@ header > span {
 h3 {
     margin: 0;
     font-family: "Oranienbaum";
+    font-size: 20px;
     padding: 10px;
     text-align: center;
     text-shadow: 1px 1px white;
