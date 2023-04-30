@@ -4,7 +4,6 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 20px 0;
-    justify-self: center;
 }
 
 main section {
@@ -27,5 +26,5 @@ main > section:nth-of-type(3) {
 }
 
 section img {
-    max-width: 400px;
+    max-width: 500px;
 }
