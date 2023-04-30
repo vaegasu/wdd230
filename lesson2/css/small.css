@@ -4,6 +4,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 20px 0;
+    justify-self: center;
 }
 
 main section {
