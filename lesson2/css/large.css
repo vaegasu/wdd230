@@ -86,7 +86,7 @@ footer {
     text-align: center;
     background-color: #c68c53;
     color: white;
-    text-shadow: 1px 1px #800000;
+    text-shadow: 2px 2px #800000;
     border-radius: 10px 10px 0 0;
     padding: 1em; 
 }
