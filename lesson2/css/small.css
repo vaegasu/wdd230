@@ -1,6 +1,4 @@
 main {
-    margin: 0 auto;
-    display: grid;
     grid-template-columns: 1fr;
     grid-gap: 20px 0;
 }
@@ -25,5 +23,5 @@ main > section:nth-of-type(3) {
 }
 
 section img {
-    max-width: 500px;
+    max-width: 400px;
 }
