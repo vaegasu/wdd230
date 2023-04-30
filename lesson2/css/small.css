@@ -1,4 +1,4 @@
-@media only screen and (max-width: 649px) {
+@media (max-width: 649px) {
     main {
         margin: 0 auto;
         display: grid;
