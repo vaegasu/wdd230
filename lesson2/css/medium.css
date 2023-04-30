@@ -2,6 +2,9 @@ main {
     grid-template-columns: 1fr 1fr;
 }
 
-main > section:nth-of-type(3) {
-    grid-column: span 2;
+section:nth-of-type(3) {
+    grid-column: span 3;
+    width: 100%;
+    justify-self: center;
 }
+
