@@ -54,6 +54,7 @@ h3 {
     font-family: "Oranienbaum";
     padding: 10px;
     text-align: center;
+    text-shadow: 1px 1px white;
     background: #c68c53 ;
     color: #800000;
 }
