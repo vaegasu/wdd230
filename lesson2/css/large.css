@@ -12,6 +12,7 @@ body {
 header {
     font-family: "Grand Hotel";
     text-align: center;
+    text-shadow: 1px 1px white;
     background-color: #c68c53;
     border-radius: 0 0 10px 10px;
     color: #800000;
@@ -20,10 +21,12 @@ header {
 
 h1 {
     margin-bottom: 0.25em;
+    text-shadow: 2px 2px white;
+    font-size: 70px;
 }
 
 header > span {
-    font-size: medium;
+    font-size: 35px;
     color:#800000;
 }
 
@@ -78,6 +81,7 @@ section img {
 
 footer {
     font-family: "Grand Hotel";
+    font-size: medium;
     text-align: center;
     background-color: #c68c53;
     color: #800000;
