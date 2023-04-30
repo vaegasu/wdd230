@@ -1,47 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Noto+Serif&family=Oranienbaum&display=swap');
 
+html {
+    background-color: beige;
+}
+
 body {
     max-width: 900px;
     margin: 0 auto;
 }
 
-main {
-    font-family: "Oranienbaum";
-}
-
-header, main, footer {
-    margin: 1.25rem auto;
-    max-width: 760px;
-}
-
-header, footer {
-    font-family: "Grand Hotel";
-    background-color: #c68c53;
-    text-align: center;
-    border: 5px solid;
-    border-radius: 15px;
-    border-color: #c68c53;
-    color: #800000;
-    box-shadow: 10px 10px 5px goldenrod;
-}
-
 header {
-    display: grid;
-    grid-template-columns: auto;
-    padding-left: 1.5rem;
-    font-size: 47px;
-    text-shadow: 1px 1px white;
-}
-
-footer {
-    font-size: 25px;
+    font-family: "Grand Hotel";
+    text-align: center;
+    background-color: #c68c53;
+    border-radius: 0 0 10px 10px;
+    color: #800000;
+    padding: 1em;    
 }
 
 h1 {
-    grid-row: 1 / 2;
-    font-size: 70px;
-    margin-bottom: 3px;
-    text-shadow: 2px 2px white;
+    margin-bottom: 0.25em;
+}
+
+header > span {
+    font-size: medium;
+    color:#800000;
 }
 
 main {
@@ -52,20 +35,24 @@ main {
     margin: 20px auto;
 }
 
-h3 {
-    margin: 0;
-    padding: 10px;
-    text-align: center;
-    /* text-align: center; */
-    background: #c68c53;
-    color: #800000;
-}
-
 section {
     border-radius: 10px;
     background-color: white;
-    border: solid 1px goldenrod;
+    border: solid 1px #c68c53;
     overflow: hidden;
+}
+
+section * {
+    font-family: "Oranienbaum";
+}
+
+h3 {
+    margin: 0;
+    font-family: "Oranienbaum";
+    padding: 10px;
+    text-align: center;
+    background: #c68c53 ;
+    color: #800000;
 }
 
 section > div {
@@ -85,6 +72,32 @@ section img {
     height: 450px;
     display: block;
     margin: 0 auto;
-    border: solid 1px goldenrod;
+    border: solid 1px #c68c53;
     max-width: 320px;
 }
+
+footer {
+    font-family: "Grand Hotel";
+    text-align: center;
+    background-color: #c68c53;
+    color: #800000;
+    border-radius: 10px 10px 0 0;
+    padding: 1em; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
