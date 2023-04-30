@@ -30,6 +30,16 @@ header > span {
     color:#800000;
 }
 
+h3 {
+    margin: 0;
+    font-family: "Oranienbaum";
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px white;
+    background: #c68c53 ;
+    color: #800000;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -47,16 +57,6 @@ section {
 
 section * {
     font-family: "Oranienbaum";
-}
-
-h3 {
-    margin: 0;
-    font-family: "Oranienbaum";
-    padding: 10px;
-    text-align: center;
-    text-shadow: 1px 1px white;
-    background: #c68c53 ;
-    color: #800000;
 }
 
 section > div {
