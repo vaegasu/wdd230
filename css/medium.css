@@ -3,14 +3,14 @@
        display: grid;
        grid: 250px / auto auto auto;
        padding-left: .7rem;
-       font-size: 38px;
+       font-size: 45px;
        text-shadow: 2px 2px white;
    }
        img {
-       width: 200px;
+       width: 250px;
    }
        body {
-       font-size: 20px;
+       font-size: 25px;
        
    }
 }
