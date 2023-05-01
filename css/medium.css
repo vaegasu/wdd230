@@ -1,2 +1,16 @@
 @media only screen and (min-width: 32.5em) {
+    header {
+       display: grid;
+       grid: 250px / auto auto auto;
+       padding-left: .7rem;
+       font-size: 38px;
+       text-shadow: 2px 2px white;
+   }
+       img {
+       width: 200px;
+   }
+       body {
+       font-size: 20px;
+       
+   }
 }
