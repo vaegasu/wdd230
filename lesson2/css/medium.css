@@ -1,6 +1,11 @@
 main {
     grid-template-columns: 1fr 1fr;
 }
+
+body {
+    max-width: 500px;
+    margin: 0 auto;
+}
     
 main > section:nth-of-type(3) {
     font-size: larger;
