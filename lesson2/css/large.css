@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Oranienbaum&display=swap');
 
+* {
+    font-family: "Grand Hotel", "Oranienbaum";
+}
+
 html {
     background-color: beige;
 }
@@ -50,7 +54,6 @@ main {
 }
 
 section {
-    justify-content: end;
     border-radius: 10px;
     background-color: white;
     border: solid 1px #c68c53;
