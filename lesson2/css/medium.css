@@ -1,29 +1,29 @@
 main {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
     
 main > section:nth-of-type(3) {
     font-size: larger;
-    grid-column: span 4;
-    width: 100%;
-    justify-self: center;
-}
-
-section {
-    font-size: larger;
-}
-
-main > section:nth-of-type(2) {
-    font-size: larger;
-    grid-column: 3 / span 2;
+    grid-column: span 2;
     width: 100%;
     justify-self: center;
 }
 
 main > section:nth-of-type(1) {
     font-size: larger;
-    grid-column: 1 / span 2;
+    grid-column: 1 / span 1;
     width: 100%;
     justify-self: center;
+}
+
+main > section:nth-of-type(2) {
+    font-size: larger;
+    grid-column: 2 / span 1;
+    width: 100%;
+    justify-self: center;
+}
+
+section {
+    font-size: larger;
 }
