@@ -1,0 +1,18 @@
+:root {
+    --main-color: #463F3A;
+    --secondary-color: #8A817C;
+    --accent-color: #BCB8B1;
+    --default-light: #F4F3EE;
+    --default-dark: #E0AFA0;
+
+    --header-font: 'Lobster', sans-serif;
+    --paragraph-font: 'Rufina', sans-serif;
+}
+
+body {
+    grid-template-columns: auto 90% auto;
+}
+
+#typo-wrapper {
+    grid-template-columns: 1fr 1fr;
+}
