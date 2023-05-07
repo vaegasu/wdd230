@@ -123,7 +123,7 @@ nav a, span.navR {
     text-align: center;
     position: relative;
     text-decoration: none;
-    color: var(--default-light);
+    color: var(--main-color);
     background-color: var(--default-dark);
     box-shadow: 0 0 10px var(--default-dark);
 }
