@@ -65,7 +65,6 @@ h1, h2, h3, h4, th {
 
 p, div, li, td, a {
     font-family: var(--paragraph-font);
-    font-size: 1.2em;
 }
 
 footer {
@@ -105,7 +104,7 @@ nav > ul {
     padding: 0;
     display: grid;
     list-style: none;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     box-shadow: 0 0 10px var(--default-dark);
 }
 
