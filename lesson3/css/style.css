@@ -70,6 +70,8 @@ p, span, div, li, td, a {
 /* style for header & elements inside header */
 
 header {
+    display: grid;
+    grid: 250px / auto auto auto;
     z-index: 10;
     padding: 1rem;
     position: relative;
@@ -78,15 +80,15 @@ header {
     box-shadow: 0 0 10px var(--main-color);
 }
 
-header > span {
-    display: block;
-    color: var(--secondary-color);
-    padding-bottom: 1rem;
+img {
+    grid-column: 1 / 2;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 h1 {
     color: var(--default-light);
-    margin-bottom: 0.75rem;
+    font-size: 65px;
 }
 
 nav {
@@ -149,6 +151,7 @@ main {
 
 h2 {
     color: var(--main-color);
+    text-shadow: 2px 2px white;
 }
 
 h3, h4 {
@@ -161,15 +164,6 @@ section {
 
 section.grid {
     padding: 1rem;
-    display: grid;
-    grid-template-columns: 256px 1fr;
-}
-
-section.grid > img {
-    width: 30%; /* I just had to match this percent
-                   with the temperature on the logo */
-    align-self: center;
-    justify-self: center;
 }
 
 table {
