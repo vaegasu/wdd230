@@ -373,7 +373,3 @@ footer a:hover {
     font-size: 0.9rem;
     color: var(--secondary-color);
 }
-
-#too-small {
-    display: none;
-}
