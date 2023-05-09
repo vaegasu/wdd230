@@ -137,7 +137,7 @@ nav a.at, nav a:active, span.navA {
 nav a:hover, span.navH {
     background-color: var(--default-light);
     box-shadow: 0 0 10px var(--default-light), inset 0 0 10px var(--main-color);
-    color: var(--default-dark);
+    color: var(--main-color);
     font-weight: bold;
     padding: 1em 0;
     z-index: 7;
