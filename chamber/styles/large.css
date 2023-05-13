@@ -9,8 +9,42 @@
         --header-font: 'Lobster', 'cursive';
         --paragraph-font: 'Rufina', sans-serif;
     }
+
+    /* --- header --- */
+
+    header {
+        grid-template-columns: 3fr 4fr 1fr;
+    }
+
+    #navButton {
+        display: none;
+    }
+
+    /* --- nav --- */ 
+
+    #primaryNav {
+        display: block;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        padding: 0;
+        margin: 6%;
+        border: 0;
+    }
+
+    #primaryNav ul {
+        display: flex;
+    }
+    
+    #primaryNav a {
+        border: 0;
+    }
+
+    .navigation {
+        grid-column: 3/4;
+    }
     
     nav ul li a {
         padding: .5rem 1rem;
     } 
+
 }
