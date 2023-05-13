@@ -13,3 +13,10 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+nav button {
+    margin: .2rem 2vw;
+    background: var(--default-dark);
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
