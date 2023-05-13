@@ -43,9 +43,25 @@ body > * {
     grid-column: 2;
 }
 
-img {
+#logo {
     width: 20%;
 }
+
+/* --- social media icons --- */
+
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social a {
+    margin-right: 10%;
+    width: 20%;
+}
+
+
+
+/* --- header --- */
 
 header {
     background-color: var(--main-color);
