@@ -1,6 +1,6 @@
-const datefield = document.querySelector("time");
-const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
-    now
-  );
+// Current Date
+let date = document.getElementById("currentDate");
 
-datefield.textContent = fulldate;
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
+date.innerHTML = fulldate;
