@@ -48,10 +48,10 @@ nav ul {display: none;}
 nav ul.open {display: block;}
 
 #navButton span:nth-child(1) {display:block;}
-#navButton span:nth-child(1) {display:none;}
+#navButton span:nth-child(2) {display:none;}
 
 #navButton.open span:nth-child(1) {display:none;}
-#navButton.open span:nth-child(1) {display:block;}
+#navButton.open span:nth-child(2) {display:block;}
 
 
 /* google fonts/size */

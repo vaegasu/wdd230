@@ -1,4 +1,15 @@
 @media only screen and (min-width: 64rem) {
+    root {
+        --main-color: #463F3A;
+        --secondary-color: #8A817C;
+        --accent-color: #BCB8B1;
+        --default-light: #F4F3EE;
+        --default-dark: #E0AFA0;
+    
+        --header-font: 'Lobster', 'cursive';
+        --paragraph-font: 'Rufina', sans-serif;
+    }
+    
     nav ul li a {
         padding: .5rem 1rem;
     } 
