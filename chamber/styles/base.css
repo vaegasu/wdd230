@@ -17,6 +17,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
 h1, footer {
     font-family: var(--header-font);
     color: var(--default-light);
+    text-shadow: 2px 2px var(--default-dark);
 }
 
 h1 {
@@ -167,6 +168,8 @@ main section p, main div p {
     padding: 5%;
 }
 
+/* --- heros --- */
+
 #hero {
     position: relative;
     padding: 0;
@@ -227,7 +230,7 @@ main section p, main div p {
     display: none;
 }
 
-/* footer */
+/* --- footer --- */
 
 footer {
     box-shadow: 0 0 10px var(--default-dark);
@@ -248,11 +251,3 @@ footer a {
 footer a:hover {
     text-shadow: 1px 1px 10px var(--secondary-color);
 }
-
-
-
-
-
-
-
-
