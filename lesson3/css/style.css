@@ -100,9 +100,9 @@ nav {
 nav > ul {
     margin: 0;
     padding: 0;
+    list-style: none;
     display: flex;
     justify-content: space-around;
-    list-style: none;
     box-shadow: 0 0 10px var(--default-dark);
 }
 
@@ -114,9 +114,9 @@ nav a {
 nav a, span.navR {
     z-index: 8;
     padding: 1em 0;
-    display: block;
     margin-right: 0;
     width: calc(100%);
+    display: block;
     font-weight: bold;
     text-align: center;
     position: relative;
