@@ -9,7 +9,8 @@
     --paragraph-font: 'Rufina', sans-serif;
 }
 
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
+    background-color: var(--default-dark);}
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
@@ -51,3 +52,53 @@ nav ul.open {display: block;}
 
 #navButton.open span:nth-child(1) {display:none;}
 #navButton.open span:nth-child(1) {display:block;}
+
+
+/* google fonts/size */
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+h1, h2, h3, th, footer {
+    font-family: var(--header-font);
+}
+
+p, div, li, td, a {
+    font-family: var(--paragraph-font);
+}
+
+footer {
+    font-size: 1em;
+}
+
+/* header */
+
+header {
+    display: grid;
+    grid: 1px 1px;
+    z-index: 10;
+    padding: .5rem;
+    position: relative;
+    text-align: center;
+    background-color: var(--main-color);
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+img {
+    grid-column: 1 / 2;
+    margin-left: 30px;
+}
+
+h1,h2 {
+    color: var(--default-light);
+    margin-bottom: 0.75rem;
+}
