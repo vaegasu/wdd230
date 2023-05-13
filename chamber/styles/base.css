@@ -83,8 +83,8 @@ footer {
 /* header */
 
 header {
-    display: grid;
-    grid: 1px 1px;
+    display: flex;
+    justify-content: space-around;
     z-index: 10;
     padding: .5rem;
     position: relative;
@@ -98,7 +98,80 @@ img {
     margin-left: 30px;
 }
 
-h1,h2 {
+h1, h2 {
     color: var(--default-light);
     margin-bottom: 0.75rem;
 }
+
+/* heros */
+
+#hero {
+    border: #BCB8B1;
+    border-radius: 10px;
+    background-color: #F4F3EE;
+    box-shadow: 3px 3px 3px var(--main-color);
+    position: absolute;
+    padding: 3%;
+}
+
+.event {
+    border: #BCB8B1;
+    border-radius: 10px;
+    background-color: #F4F3EE;
+    box-shadow: 3px 3px 3px var(--main-color);
+    position: absolute;
+    padding: 3%;
+}
+
+.weather {
+    border: #BCB8B1;
+    border-radius: 10px;
+    background-color: #F4F3EE;
+    box-shadow: 3px 3px 3px var(--main-color);
+    position: absolute;
+    padding: 3%;
+}
+
+.news {
+    border: #BCB8B1;
+    border-radius: 10px;
+    background-color: #F4F3EE;
+    box-shadow: 3px 3px 3px var(--main-color);
+    position: absolute;
+    padding: 3%;
+}
+
+.spotlight {
+    border: #BCB8B1;
+    border-radius: 10px;
+    background-color: #F4F3EE;
+    box-shadow: 3px 3px 3px var(--main-color);
+    position: absolute;
+    padding: 3%;
+}
+
+/* main */
+
+
+/* footer */
+
+footer {
+    box-shadow: 0 0 10px var(--default-dark);
+    background-color: var(--main-color);
+    font-family: var(--header-font);
+    color: var(--default-light);
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+    z-index: 10;
+}
+
+footer a {
+    color: var(--default-light);
+    text-decoration: underline var(--secondary-color);
+}
+
+footer a:hover {
+    text-shadow: 1px 1px 10px var(--secondary-color);
+}
+
