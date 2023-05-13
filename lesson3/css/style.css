@@ -12,7 +12,7 @@
 /* styling for html & body */
 
 html { 
-    background-color: var(--accent-color); 
+    background-color: var(--default-dark); 
 }
 
 body {
@@ -100,9 +100,9 @@ nav {
 nav > ul {
     margin: 0;
     padding: 0;
-    display: grid;
+    display: flex;
+    justify-content: space-around;
     list-style: none;
-    grid-template-columns: 1fr 1fr 1fr;
     box-shadow: 0 0 10px var(--default-dark);
 }
 
