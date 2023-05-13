@@ -211,6 +211,28 @@ main section p, main div p {
     display: none;
 }
 
+/* footer */
+
+footer {
+    box-shadow: 0 0 10px var(--default-dark);
+    background-color: var(--main-color);
+    font-family: var(--header-font);
+    color: var(--default-light);
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+    z-index: 10;
+}
+
+footer a {
+    color: var(--default-light);
+    text-decoration: underline var(--secondary-color);
+}
+
+footer a:hover {
+    text-shadow: 1px 1px 10px var(--secondary-color);
+}
+
 
 
 
