@@ -100,49 +100,58 @@ header .company h1 {
 
 /* --- nav --- */
 
-.navigation {
+#navigation {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-#navButton {
-    text-align: end;
-}
-
-#navButton {
+.navButton {
     background-color: var(--default-dark);
     color: var(--main-color);
+    text-align: end;
     font-size: 2rem;
     margin-top: -2%;
     color:#F4F3EE;
 }
 
-#primaryNav ul {
+nav {
+    background-color: #eee;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
     list-style-type: none;
-    margin: .2rem 2vw;
     padding: 0;
-    font-weight: 800;
+    margin: 0;
 }
 
-header nav {display: none;}
-header nav.open {
-    display: block;
-    grid-column: 1/4;
-    border-bottom: 1px solid var(--default-dark);
-    margin-bottom: 2%;
-}
-
-#primaryNav a {
+nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
+    color: #333;
     border-top: 1px solid rgba(0,0,0,0.5);
 }
 
-#primaryNav a:hover {
-    background-color: var(--default-light);
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
 }
+
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#navButton span:nth-child(1) {display:block;}
+#navButton span:nth-child(2) {display:none;}
+
+#navButton.open span:nth-child(1) {display:none;}
+#navButton.open span:nth-child(2) {display:block;}
 
 /* --- current date in header --- */
 
