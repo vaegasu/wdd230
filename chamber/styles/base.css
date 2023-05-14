@@ -245,20 +245,17 @@ footer {
     box-shadow: 0 0 10px var(--default-dark);
     color: var(--default-light);
     font-family: var(--header-font);
-    position: relative;
+    /*position: relative;*/
     padding: 1rem;
-    z-index: 10;
+    /*z-index: 10;*/
     align-items: center;
     text-align: center;
 }
 
 .section-1 {
-    font-size: 150%;
-}
-
-.section-1 {
     max-width: 50%;
     margin-left: 25%;
+    font-size: x-large;
 }
 
 footer a {
