@@ -5,6 +5,10 @@
         grid-template-columns: 3fr 4fr 1fr;
     }
 
+    header h1 {
+        font-size: 35px;
+    }
+
     /* --- nav --- */ 
 
     .navigation {
@@ -22,6 +26,7 @@
         padding: 0;
         margin: 20%;
         margin-left: -5%;
+        font-size: 25px;
         border: 0;
     }
 
