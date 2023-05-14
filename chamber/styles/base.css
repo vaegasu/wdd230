@@ -118,7 +118,7 @@ header .company h1 {
 
 #navButton {
     background-color: var(--default-dark);
-    color: var(--default-light);
+    color: var(--main-color);
     font-size: 1rem;
     margin-top: -2%;
 }
@@ -139,7 +139,7 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: var(--default-light);
+    color: var(--main-color);
     background-color: var(--default-dark);
     border-top: 2px solid rgba(0,0,0,0.5);
 }
@@ -173,7 +173,7 @@ nav ul.open {display: block;
     grid-column: 1/4;
     text-align: center;
     background-color: var(--default-dark);
-    color: white;
+    color: var(--main-color);
     padding: 1% 0 1% 0;
     font-size: 19px;
 }
