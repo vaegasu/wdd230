@@ -112,13 +112,10 @@ header .company h1 {
     text-align: end;
     font-size: 2rem;
     margin-top: -2%;
-    color:#F4F3EE;
 }
 
 nav {
-    background-color: #eee;
-    position: sticky;
-    top: 0;
+    background-color: (var(--default-dark));
 }
 
 nav ul {
@@ -131,7 +128,8 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #333;
+    color: var(--main-color);
+    background-color: var(--default-dark);
     border-top: 1px solid rgba(0,0,0,0.5);
 }
 
@@ -139,10 +137,10 @@ nav ul li a:hover {
     background-color: rgba(0,0,0,0.3);
 }
 
-nav ul li.active a {
+/* --- nav ul li.active a {
     background-color: rgba(0,0,0,0.2);
     color: #fff;
-}
+} --- */
 
 nav ul {display: none;}
 nav ul.open {display: block;}
