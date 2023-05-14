@@ -121,7 +121,7 @@ nav {
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: .2rem 2vw;
 }
 
 nav ul li a {
@@ -144,7 +144,12 @@ nav ul li a:hover {
 } --- */
 
 nav ul {display: none;}
-nav ul.open {display: block;}
+nav ul.open {display: block;
+    display: block;
+    grid-column: 1/4;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    margin-bottom: 2%;
+}
 
 #navButton span:nth-child(1) {display:block;}
 #navButton span:nth-child(2) {display:none;}
