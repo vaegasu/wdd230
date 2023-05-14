@@ -126,7 +126,7 @@ header .company h1 {
 nav {
     margin-top: 88px;
     margin-left: -19px;
-    background-color: (var(--default-dark));
+    background-color: var(--default-dark);
 }
 
 nav ul {
