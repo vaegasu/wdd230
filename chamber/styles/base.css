@@ -147,6 +147,7 @@ header a {
     background-color: var(--secondary-color);
     color: white;
     padding: 1% 0 1% 0;
+    font-size: 1.5em;
 }
 
 main {
