@@ -50,17 +50,15 @@ body > * {
 
 /* --- social media icons --- */
 
-.social {
+#social {
     display: flex;
     justify-content: space-between;
 }
 
-.social a {
+#social a {
     margin-right: 10%;
     width: 20%;
 }
-
-
 
 /* --- header --- */
 
@@ -80,25 +78,26 @@ header {
     align-items: center;
 }
 
+header a {
+    color: white;
+}
+
 header .company {
     text-align: center;
     font-size: 60%;
     padding: 10%;
 }
 
+header .company h1 {
+    margin-bottom: -5px;
+}
+
+/* --- nav --- */
+
 .navigation {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-
-.social {
-    display: flex;
-}
-
-.social a {
-    margin-right: 10%;
-    width: 40px;
 }
 
 #navButton {
@@ -110,6 +109,7 @@ header .company {
     color: var(--main-color);
     font-size: 2rem;
     margin-top: -2%;
+    color:#F4F3EE;
 }
 
 #primaryNav ul {
@@ -127,10 +127,6 @@ header nav.open {
     margin-bottom: 2%;
 }
 
-header a {
-    color: white;
-}
-
 #primaryNav a {
     display: block;
     padding: .8rem 2vw;
@@ -142,6 +138,8 @@ header a {
     background-color: var(--default-light);
 }
 
+/* --- current date in header --- */
+
 #currentDate {
     grid-column: 1/4;
     background-color: var(--secondary-color);
@@ -149,6 +147,8 @@ header a {
     padding: 1% 0 1% 0;
     font-size: 1.5em;
 }
+
+/* --- main --- */
 
 main {
     padding: 1px 1em;
@@ -169,7 +169,7 @@ main section p, main div p {
     padding: 5%;
 }
 
-/* --- heros --- */
+/* --- heroes --- */
 
 #hero {
     position: relative;
