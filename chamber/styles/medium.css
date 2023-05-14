@@ -1,19 +1,10 @@
 @media only screen and (min-width:40rem) {
     /* --- nav --- */
 
-    #navButton {
-        display: none;
-    }
+    nav {
+        margin-top: 88px;
+        margin-left: -10px;
 
-    nav ul#primaryNav {
-        display: flex;
-        margin-left: 2vw;
-        border-left: 1 px solid var(--default-dark);
-    }
-    
-    nav ul li a {
-        border: none;
-        border-right: 1px solid var(--default-dark);
     }
 
     /* --- main --- */
@@ -38,6 +29,12 @@
         grid-row: 6/7;
         grid-column: 2/3;
     }
+
+    .join {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     
     .spotlight {
         display: grid;
@@ -60,9 +57,32 @@
 
     /* --- footer --- */
 
+    footer {
+        font-size: 70%;
+    }
+
     .section-1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        align-items: center;
+        display: flex;
+        grid-template-columns: space-around;
+        gap: 10px;
+    }
+
+    .logo-footer {
+        margin-left: -60%;
+        width: 45%;
+    }
+
+    #name-2 {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    #name-3 {
+        margin-right: -90%;
+        margin-top: 40px;
+    }
+
+    p, a {
+        font-size: 12px;
     }
 }
