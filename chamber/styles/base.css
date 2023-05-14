@@ -234,16 +234,15 @@ main section p, main div p {
 /* --- footer --- */
 
 footer {
-    box-shadow: 0 0 10px var(--default-dark);
+    display: block;
     background-color: var(--main-color);
-    font-family: var(--header-font);
+    box-shadow: 0 0 10px var(--default-dark);
     color: var(--default-light);
+    font-family: var(--header-font);
     position: relative;
     padding: 1rem;
     z-index: 10;
     text-align: center;
-
-    display: block;
     align-items: center;
 }
 
