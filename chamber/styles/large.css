@@ -43,13 +43,7 @@
 
     /* --- current time --- */
 
-    #currentDate {
-        grid-column: 1/4;
-        background-color: var(--secondary-color);
-        color: white;
-        padding: 1% 0 1% 0;
-        font-size: 1.5em;
-    }
+    
 
     /* --- main --- 
 
