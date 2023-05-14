@@ -100,13 +100,13 @@ header .company h1 {
 
 /* --- nav --- */
 
-#navigation {
+.navigation {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.navButton {
+#navButton {
     background-color: var(--default-dark);
     color: var(--main-color);
     text-align: end;
@@ -240,10 +240,6 @@ main section p, main div p {
     box-shadow: 3px 3px 3px var(--main-color);
     padding: 3%;
     border-radius: 10px;
-}
-
-.large-only, .medium-display {
-    display: none;
 }
 
 /* --- footer --- */

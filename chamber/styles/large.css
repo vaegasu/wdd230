@@ -11,29 +11,7 @@
 
     /* --- nav --- */ 
 
-    #primaryNav {
-        display: block;
-        grid-column: 2/3;
-        grid-row: 1/2;
-        padding: 0;
-        margin: 6%;
-        border: 0;
-    }
-
-    #primaryNav ul {
-        display: flex;
-    }
-    
-    #primaryNav a {
-        border: 0;
-    }
-
-    .navigation {
-        grid-column: 3/4;
-    }
-    
-    #primaryNav ul li a {
+    nav ul li a {
         padding: .5rem 1rem;
-    } 
-
+    }
 }
