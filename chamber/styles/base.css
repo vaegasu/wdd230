@@ -190,7 +190,6 @@ main section, main div {
 }
 
 main section, main div {
-    background-color: var(--default-light);
     border: 1px solid var(--secondary-color);
 }
 
