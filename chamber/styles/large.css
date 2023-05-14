@@ -41,6 +41,13 @@
         padding: .5rem 1rem;
     }
 
+    /* --- font size --- */
+
+    p, a {
+        font-family: var(--paragraph-font);
+        font-size: 15px;
+    }
+
     /* --- current time --- */
 
     
@@ -117,6 +124,4 @@
     #name-3 {
         margin-right: -60%;
     }
-
-
 }
