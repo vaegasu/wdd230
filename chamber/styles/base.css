@@ -124,7 +124,8 @@ header .company h1 {
 }
 
 nav {
-    grid-column: 3/4;
+    margin-top: 88px;
+    margin-left: -19px;
     background-color: (var(--default-dark));
 }
 
@@ -283,6 +284,10 @@ footer {
     max-width: 50%;
     margin-left: 25%;
     font-size: x-large;
+}
+
+#name-2 {
+    margin-top: -50px;
 }
 
 footer a {
