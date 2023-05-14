@@ -5,13 +5,77 @@
         grid-template-columns: 3fr 4fr 1fr;
     }
 
+    /* --- nav --- */ 
+
+    .navigation {
+        grid-column: 3/4;
+    }
+
     #navButton {
         display: none;
     }
 
-    /* --- nav --- */ 
+    #primaryNav {
+        display: block;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        padding: 0;
+        margin: 6%;
+        border: 0;
+    }
+
+    #primaryNav ul {
+        display: flex;
+    }
+
+    #primaryNav a {
+        border: 0;
+    }
 
     nav ul li a {
         padding: .5rem 1rem;
+    }
+
+    /* --- main --- 
+
+    main section, main div {
+        height: 100%;
+        width: 100%;
+    } 
+
+    /* --- home --- */
+
+    .home-grid {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, 1fr);
+        grid-template-rows: auto auto auto;
+        gap: 15px;
+    }
+
+    #hero {
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+
+    .event {
+        grid-row: 1/2;
+        margin-right: 0;
+    }
+
+    .weather {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .news {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .spotlight {
+        display: flex;
+        flex-direction: column;
+        grid-column: 3/4;
+        grid-row: 1/4;
+        box-sizing: border-box;
     }
 }
