@@ -110,7 +110,7 @@ header .company h1 {
     background-color: var(--default-dark);
     color: var(--main-color);
     text-align: end;
-    font-size: 2rem;
+    font-size: 1rem;
     margin-top: -2%;
 }
 
