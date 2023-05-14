@@ -241,17 +241,17 @@ main section p, main div p {
 .spotlight1 {
     position: relative;
     padding: 0;
-    box-shadow: 3px 3px 3px var(--main-color);
-    padding: 3%;
-    border-radius: 10px;
+    box-shadow: 2px 2px 2px var(--main-color);
+    padding: 2%;
+    border-radius: 8px;
 }
 
 .spotlight2 {
     position: relative;
     padding: 0;
-    box-shadow: 3px 3px 3px var(--main-color);
-    padding: 3%;
-    border-radius: 10px;
+    box-shadow: 2px 2px 2px var(--main-color);
+    padding: 2%;
+    border-radius: 8px;
 }
 
 /* --- footer --- */
