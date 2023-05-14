@@ -30,6 +30,11 @@ h2 {
     text-shadow: 3px 3px var(--default-dark);
 }
 
+h3 {
+    font-family: var(--header-font);
+    color: var(--default-light);
+}
+
 p, a {
     font-family: var(--paragraph-font);
 }
@@ -242,7 +247,6 @@ footer {
     position: relative;
     padding: 1rem;
     z-index: 10;
-    text-align: center;
     align-items: center;
 }
 
