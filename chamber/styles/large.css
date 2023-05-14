@@ -6,7 +6,7 @@
     }
 
     header h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     /* --- nav --- */ 
@@ -38,14 +38,18 @@
     }
 
     nav ul li a {
-        padding: .5rem 1rem;
+        padding: .2rem 1rem;
     }
 
     /* --- font size --- */
 
     p, a {
         font-family: var(--paragraph-font);
-        font-size: 15px;
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 25px;
     }
 
     /* --- current time --- */
@@ -104,7 +108,7 @@
     /* --- footer --- */
 
     footer {
-        font-size: 80%;
+        font-size: 100%;
     }
 
     .section-1 {
@@ -118,10 +122,10 @@
     }
 
     #name-2 {
-        margin-left: -30%;
+        margin-left: -10%;
     }
 
     #name-3 {
-        margin-right: -60%;
+        margin-right: -52%;
     }
 }
