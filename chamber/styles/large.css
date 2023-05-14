@@ -108,15 +108,7 @@
 
     .section-1 {
         display: flex;
+        justify-content: space-around;
         gap: 5px;
-    }
-
-    .logo-footer {
-        justify-content: first baseline;
-    }
-
-    .section-2 {
-        display: flex;
-        align-items: center;
     }
 }
