@@ -134,7 +134,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: rgba(0,0,0,0.3);
+    background-color: var(--default-light);
+    color: var(--main-color);
 }
 
 /* --- nav ul li.active a {
