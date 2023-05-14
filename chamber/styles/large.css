@@ -41,6 +41,16 @@
         padding: .5rem 1rem;
     }
 
+    /* --- current time --- */
+
+    #currentDate {
+        grid-column: 1/4;
+        background-color: var(--secondary-color);
+        color: white;
+        padding: 1% 0 1% 0;
+        font-size: 1.5em;
+    }
+
     /* --- main --- 
 
     main section, main div {
@@ -51,6 +61,7 @@
     /* --- home --- */
 
     .home-grid {
+        display: grid;
         grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, 1fr);
         grid-template-rows: auto auto auto;
         gap: 15px;
@@ -73,6 +84,11 @@
 
     .news {
         grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .join {
+        grid-column: 1/2;
         grid-row: 3/4;
     }
 
