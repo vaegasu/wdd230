@@ -38,6 +38,7 @@ h3 {
 
 p, a {
     font-family: var(--paragraph-font);
+    font-size: 15px;
 }
 
 body {
@@ -56,14 +57,19 @@ body > * {
 
 /* --- social media icons --- */
 
-#social {
+.social {
     display: flex;
     justify-content: space-between;
 }
 
-#social a {
-    margin-right: 10%;
-    width: 20%;
+.social a {
+    margin-right: 16%;
+    width: 30%;
+}
+
+.social img {
+    width: 50px;
+    margin-left: -101%;
 }
 
 /* --- header --- */
@@ -82,6 +88,10 @@ header {
 .name {
     display: flex;
     align-items: center;
+}
+
+#company {
+    font-size: small;
 }
 
 header a {
@@ -108,13 +118,13 @@ header .company h1 {
 
 #navButton {
     background-color: var(--default-dark);
-    color: var(--main-color);
-    text-align: end;
+    color: var(--default-light);
     font-size: 1rem;
     margin-top: -2%;
 }
 
 nav {
+    grid-column: 3/4;
     background-color: (var(--default-dark));
 }
 
@@ -128,9 +138,9 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: var(--main-color);
+    color: var(--default-light);
     background-color: var(--default-dark);
-    border-top: 1px solid rgba(0,0,0,0.5);
+    border-top: 2px solid rgba(0,0,0,0.5);
 }
 
 nav ul li a:hover {
@@ -145,7 +155,6 @@ nav ul li a:hover {
 
 nav ul {display: none;}
 nav ul.open {display: block;
-    display: block;
     grid-column: 1/4;
     border-bottom: 1px solid rgba(0,0,0,0.5);
     margin-bottom: 2%;
@@ -164,8 +173,8 @@ nav ul.open {display: block;
     text-align: center;
     background-color: var(--default-dark);
     color: white;
-    padding: 15px;
-    font-size: 1.9em;
+    padding: 1% 0 1% 0;
+    font-size: 19px;
 }
 
 /* --- main --- */
