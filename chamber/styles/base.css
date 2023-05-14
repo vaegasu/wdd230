@@ -282,11 +282,10 @@ footer {
 .section-1 {
     max-width: 50%;
     margin-left: 25%;
-    font-size: x-large;
 }
 
-#contact {
-    margin-top: -50px;
+.logo-footer {
+    width: 80%;
 }
 
 footer a {
