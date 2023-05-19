@@ -12,9 +12,9 @@ button1.addEventListener("click", () => {
   bomAdd.innerHTML = favchap;
   list.appendChild(dbAdd);
   dbAdd.innerHTML = "X";
-  // dbAdd.setAttribute
+  dbAdd.setAttribute
   list.appendChild(liAdd);
-  enter.value = " ";
+  input.value = " ";
 
   dbAdd.addEventListener("click", () => {
     list.removeChild(bomAdd);
