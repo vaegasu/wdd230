@@ -5,6 +5,10 @@
 	padding: 0;
 }
 
+html {
+	background-color: antiquewhite;
+}
+
 body {
 	height: 100vh;
 	display: flex;
