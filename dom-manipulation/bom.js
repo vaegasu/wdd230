@@ -1,9 +1,9 @@
-const enter = document.querySelector("#favchap");
+const input = document.querySelector("#favchap");
 const button1 = document.querySelector("#addButton");
 const list = document.querySelector(".list");
 
 button1.addEventListener("click", () => {
-  let favchap = enter.value;
+  let favchap = input.value;
   const liAdd = document.createElement("li");
   const bomAdd = document.createElement("span");
   const dbAdd = document.createElement("button");
@@ -22,4 +22,4 @@ button1.addEventListener("click", () => {
     list.removeChild(liAdd);
   });
 });
-enter.focus();
+input.focus();
