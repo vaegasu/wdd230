@@ -25,7 +25,7 @@ h1, footer {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     text-shadow: 2px 2px var(--default-dark);
 }
 
@@ -73,8 +73,8 @@ body > * {
 }
 
 .social img {
-    width: 50px;
-    margin-left: -101%;
+    width: 40px;
+    margin-left: -209%;
 }
 
 /* --- header --- */
