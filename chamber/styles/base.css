@@ -193,10 +193,6 @@ main section, main div {
     margin: 2rem;
 }
 
-main section, main div {
-    border: 1px solid var(--secondary-color);
-}
-
 main section p, main div p {
     color: var(--main-color);
     padding: 5%;
@@ -207,9 +203,29 @@ main section p, main div p {
 #hero {
     position: relative;
     padding: 0;
+}
+
+#hero h2 {
+    position: absolute;
+    margin-left: 3%;
+    font-size: 1.5rem;
+}
+
+#hero a {
+    background-color: var(--default-dark);
+    color: var(--main-color);
+    text-decoration: none;
+    margin-left: 3%;
     box-shadow: 3px 3px 3px var(--main-color);
     padding: 3%;
     border-radius: 10px;
+    
+}
+
+#hero-img {
+    width: 40%;
+    height: 40%;
+    border: 1px solid var(--secondary-color);
 }
 
 .event {
