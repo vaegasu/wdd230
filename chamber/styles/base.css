@@ -274,7 +274,6 @@ main section p, main div p {
     box-shadow: 2px 2px 2px var(--main-color);
     padding: 2%;
     border-radius: 8px;
-    display: none;
 }
 
 /* --- footer --- */
