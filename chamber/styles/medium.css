@@ -38,7 +38,7 @@
         grid-column: 1/2;
     }
 
-    .event p {
+    .event p, a {
         font-size: 23px;
     }
     
