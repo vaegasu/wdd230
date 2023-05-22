@@ -9,10 +9,15 @@
     --paragraph-font: 'Rufina', sans-serif;
 }
 
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
-    background-color: var(--secondary-color);}
+html {-webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%;
+    background-color: var(--secondary-color);
+}
 
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+* { -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
 
 h1, footer {
     font-family: var(--header-font);
