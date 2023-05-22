@@ -6,7 +6,7 @@
     }
 
     header h1 {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     /* --- nav --- */ 
@@ -35,6 +35,7 @@
 
     nav a {
         border: 0;
+        font-size: 24px;
     }
 
     nav ul li a {
@@ -77,9 +78,38 @@
         grid-row: 1/3;
     }
 
+    #hero img {
+        width: 100%;
+        height: 100%;    
+    }
+
+    #hero h2 {
+        font-size: 3em;
+    }
+
+    #hero a {
+        font-size: 30px;
+        margin-top: 188%;
+        margin-left: 52%;
+        padding: 18px;
+    }
+
     .event {
         grid-row: 1/2;
         margin-right: 0;
+    }
+
+    .event h2 {
+        font-size: 2em;
+    }
+
+    .event p {
+        font-size: 25px;
+        padding: 0;
+    }
+
+    .event a {
+        font-size: 25px;
     }
 
     .weather {
@@ -87,9 +117,30 @@
         grid-row: 2/3;
     }
 
+    .weather h2 {
+        font-size: 2em;
+    }
+
+    .weather p {
+        font-size: 25px;
+        padding: 0;
+    }
+
+    .weather-img {
+        width: 50%;
+    }
+
     .news {
         grid-column: 2/3;
         grid-row: 3/4;
+    }
+
+    .news h2 {
+        font-size: 2em;
+    }
+
+    .news p {
+        font-size: 25px;
     }
 
     .join-us {
@@ -104,7 +155,13 @@
         border: 5px solid var(--secondary-color);
     }
 
+    .join-us a {
+        padding: 2%;
+        font-size: 2em;
+    }
+
     .join-us p {
+        font-size: 25px;
         padding: 0;
     }
 
@@ -113,7 +170,14 @@
         flex-direction: column;
         grid-column: 3/4;
         grid-row: 1/4;
-        box-sizing: border-box;
+    }
+
+    .spotlight h2 {
+        font-size: 2em;
+    }
+
+    .spotlight p {
+        font-size: 25px;
     }
 
     .spotlight3 {
@@ -121,7 +185,7 @@
     }
 
     .treehouse-img {
-        width: 100%;
+        width: 90%;
     }
 
     /* --- footer --- */
