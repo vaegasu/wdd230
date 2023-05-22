@@ -244,6 +244,10 @@ main section p, main div p {
     border-radius: 10px;
 }
 
+.join {
+    display: none;
+}
+
 .spotlight {
     position: relative;
     padding: 0;
