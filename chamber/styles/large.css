@@ -53,8 +53,16 @@
         font-size: 25px;
     }
 
-    /* --- current time --- */
+/* --- current date in header --- */
 
+    #currentDate {
+    grid-column: 1/4;
+    text-align: center;
+    background-color: var(--default-dark);
+    color: var(--main-color);
+    padding: 1% 0 1% 0;
+    font-size: 19px;
+}
     
 
     /* --- main --- 
