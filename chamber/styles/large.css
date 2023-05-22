@@ -92,9 +92,20 @@
         grid-row: 3/4;
     }
 
-    .join {
+    .join-us {
         grid-column: 1/2;
         grid-row: 3/4;
+    }
+
+    .join-us {
+        text-align: center;
+        padding: 1%;
+        box-shadow: 3px 3px 3px var(--main-color);
+        border: 5px solid var(--secondary-color);
+    }
+
+    .join-us p {
+        padding: 0;
     }
 
     .spotlight {
@@ -106,7 +117,11 @@
     }
 
     .spotlight3 {
-        display:grid;
+        display: grid;
+    }
+
+    .treehouse-img {
+        width: 100%;
     }
 
     /* --- footer --- */
