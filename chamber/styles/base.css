@@ -276,6 +276,10 @@ main section p, main div p {
     border-radius: 8px;
 }
 
+.spotlight3{
+    display: none;
+}
+
 /* --- footer --- */
 
 footer {
