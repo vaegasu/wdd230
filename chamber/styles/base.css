@@ -231,6 +231,14 @@ main section p, main div p {
     border-radius: 10px;
 }
 
+.join {
+    position: relative;
+    padding: 0;
+    box-shadow: 3px 3px 3px var(--main-color);
+    padding: 3%;
+    border-radius: 10px;
+}
+
 .spotlight {
     position: relative;
     padding: 0;
@@ -256,6 +264,11 @@ main section p, main div p {
 }
 
 .spotlight3 {
+    position: relative;
+    padding: 0;
+    box-shadow: 2px 2px 2px var(--main-color);
+    padding: 2%;
+    border-radius: 8px;
     display: none;
 }
 
