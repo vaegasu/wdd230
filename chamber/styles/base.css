@@ -221,8 +221,7 @@ main section p, main div p {
     margin-top: 190px;
     box-shadow: 3px 3px 3px var(--main-color);
     padding: 3%;
-    border-radius: 10px;
-    
+    border-radius: 10px;  
 }
 
 .hero-img {
@@ -248,7 +247,7 @@ main section p, main div p {
 }
 
 .weather-img {
-    width: 100%;
+    width: 30%;
 }
 
 .news {
