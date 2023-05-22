@@ -213,10 +213,12 @@ main section p, main div p {
 }
 
 #hero a {
+    position: absolute;
     background-color: var(--default-dark);
     color: var(--main-color);
     text-decoration: none;
-    margin-left: 3%;
+    margin-left: 60%;
+    margin-top: 190px;
     box-shadow: 3px 3px 3px var(--main-color);
     padding: 3%;
     border-radius: 10px;
@@ -224,9 +226,10 @@ main section p, main div p {
 }
 
 .hero-img {
-    width: 50%;
-    height: 50%;
-    border: 1px solid var(--secondary-color);
+    width: 100%;
+    height: 30%;
+    border: 5px solid var(--secondary-color);
+    border-radius: 10px;
 }
 
 .event {
