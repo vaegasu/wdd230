@@ -105,7 +105,9 @@
         box-sizing: border-box;
     }
 
-    .spotlight3
+    .spotlight3 {
+        display:grid;
+    }
 
     /* --- footer --- */
 
