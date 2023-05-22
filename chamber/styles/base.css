@@ -191,6 +191,7 @@ main {
 
 main section, main div {
     margin: 2rem;
+    border: 1px solid var(--secondary-color);
 }
 
 main section p, main div p {
