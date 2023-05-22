@@ -64,14 +64,14 @@
         font-size: 15px;
     }
 
-    .join {
+    .join-us {
         grid-row: 5/6;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
-    .join a {
+    .join-us a {
         display: block;
         text-decoration: none;
         box-shadow: 3px 3px 3px var(--main-color);
@@ -83,11 +83,11 @@
         padding: 3% 0 3% 0;
     }
 
-    .join p {
+    .join-us p {
         font-size: 15px;
     }
 
-    .join a:hover {
+    .join-us a:hover {
         background-color: var(--main-color);
         color: var(--default-dark);
     }
