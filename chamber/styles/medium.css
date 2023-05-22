@@ -72,12 +72,13 @@
     }
 
     .logo-footer {
-        margin-left: -55%;
-        width: 30%;
+        margin-left: -65%;
+        width: 25%;
+        height: 50%;
     }
 
     #name-2 {
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 10px;
         margin-left: -45%;
     }
