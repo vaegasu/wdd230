@@ -236,7 +236,8 @@ main section p, main div p {
 .event {
     padding: 1%;
     box-shadow: 3px 3px 3px var(--main-color);
-    border: 5px solid var(--secondary-color);  
+    border: 5px solid var(--secondary-color);
+    text-align: center;  
 }
 
 .weather {
@@ -244,6 +245,10 @@ main section p, main div p {
     padding: 1%;
     box-shadow: 3px 3px 3px var(--main-color);
     border: 5px solid var(--secondary-color);
+}
+
+.weather-img {
+    width: 100%;
 }
 
 .news {
