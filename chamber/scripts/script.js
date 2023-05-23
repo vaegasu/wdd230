@@ -38,3 +38,8 @@ function toggleMenu() {
 
 const x = document.getElementById("navButton")
 x.onclick = toggleMenu;
+
+// Meet & Greet 
+if (now.getDay() < 3 && now.getDay() > 0){
+    document.getElementById("meet-greet").classList.toggle("activeBanner");
+}
