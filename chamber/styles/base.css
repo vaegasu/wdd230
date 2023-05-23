@@ -238,8 +238,8 @@ main section p, main div p {
     background-color: var(--default-dark);
     color: var(--main-color);
     text-decoration: none;
-    margin-left: 60%;
-    margin-top: 190px;
+    margin-left: 64%;
+    margin-top: 50%;
     box-shadow: 3px 3px 3px var(--main-color);
     padding: 3%;
     border-radius: 10px;  
