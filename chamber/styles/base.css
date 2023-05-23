@@ -60,6 +60,29 @@ body > * {
     width: 20%;
 }
 
+/* --- meet & greet --- */
+
+#meet-greet {
+    box-sizing: border-box;
+    background-color: var(--secondary-color);
+    color: var(--default-dark);
+    font-style: italic;
+    text-align: center;
+    padding: 2%;
+    width: 100%;
+}
+
+#meet-greet span {
+    color: var(--main-color);
+    background-color: var(--default-dark);
+    display: block;
+    padding: 1% 0;
+}
+
+.activeBanner {
+    display: block;
+}
+
 /* --- social media icons --- */
 
 .social {
