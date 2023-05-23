@@ -290,7 +290,7 @@ main section p, main div p {
 }
 
 .spotlight {
-    padding: 5%;
+    padding: 4%;
     box-shadow: 3px 3px 3px var(--main-color);
     border: 5px solid var(--secondary-color);
 }
@@ -310,7 +310,7 @@ main section p, main div p {
     text-align: center;
     padding: .5%;
     box-shadow: 2px 1px 1px var(--main-color);
-    border: 3px solid var(--secondary-color);
+    border: 5px solid var(--secondary-color);
 }
 
 .code-img {
