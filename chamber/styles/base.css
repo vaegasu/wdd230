@@ -208,13 +208,11 @@ nav ul.open {display: block;
 /* --- main --- */
 
 main {
-    padding: 1px 1em;
     background-color: var(--default-light);
 }
 
 main section, main div {
-    margin: 2rem;
-    border: 1px solid var(--secondary-color);
+    margin: .5rem;
 }
 
 main section p, main div p {
@@ -323,7 +321,7 @@ main section p, main div p {
     text-align: center;
     padding: .5%;
     box-shadow: 2px 1px 1px var(--main-color);
-    border: 3px solid var(--secondary-color);
+    border: 5px solid var(--secondary-color);
 }
 
 .treehouse-img {
