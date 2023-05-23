@@ -85,17 +85,16 @@
     .join-us a {
         display: block;
         text-decoration: none;
-        box-shadow: 3px 3px 3px var(--main-color);
+        box-shadow: 2px 2px 2px var(--main-color);
         background-color: var(--default-dark);
         color: var(--main-color);
         font-size: 20px;
-        border-radius: 15px;
+        border-radius: 13px;
         width: 100%;
-        padding: 3% 0 3% 0;
     }
 
     .join-us p {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .join-us a:hover {
@@ -106,8 +105,7 @@
     .spotlight {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 3%;
-        padding: 3%;
+        gap: 2%;
     }
     
     .spotlight section {
@@ -121,6 +119,16 @@
     
     .spotlight1 {
         grid-column: 1/2;
+    }
+
+    .transport-img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .code-img {
+        width: 300px;
+        height: 200px;
     }
     
     .spotlight2 {
