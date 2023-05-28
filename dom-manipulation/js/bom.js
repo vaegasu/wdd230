@@ -1,25 +1,24 @@
-const input = document.querySelector("#favchap");
-const button1 = document.querySelector("#addButton");
-const list = document.querySelector("#list");
+const input = document.getElementById("favchap");
 
-button1.addEventListener("click", () => {
-  let favchap = input.value;
-  const liAdd = document.createElement("li");
-  const bomAdd = document.createElement("span");
-  const dbAdd = document.createElement("button");
+const button = document.getElementById("button");
 
-  list.appendChild(bomAdd);
-  bomAdd.innerHTML = favchap;
-  list.appendChild(dbAdd);
-  dbAdd.innerHTML = "X";
-  dbAdd.setAttribute
-  list.appendChild(liAdd);
-  input.value = " ";
+const list = document.getElementById("list");
 
-  dbAdd.addEventListener("click", () => {
-    list.removeChild(bomAdd);
-    list.removeChild(dbAdd);
-    list.removeChild(liAdd);
-  });
+button.addEventListener("click", function() {
+    let inputLen = input.value;
+    if (inputLen.length > 0)
+    {
+        const li = document.createElement("li");
+        const deleteBtn = document.createElement("button");
+        li.innerHTML = inputLen;
+        deleteBtn.textContent = "❌";
+        li.appendChild(deleteBtn);
+        list.appendChild(li);
+
+        deleteBtn.addEventListener("click", () => {
+            list.removeChild(li);
+        });
+        input.value = "";
+        input.focus();
+    }
 });
-input.focus();
