@@ -35,7 +35,7 @@ picture img {
     box-shadow: 4px 4px 6px var(--main-color);
 }
 picture img.in {
-    animation: img-come-in 3s;
+    animation: img-come-in 10s;
 }
 
 @keyframes img-come-in {
