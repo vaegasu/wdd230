@@ -19,7 +19,6 @@ h1 {
 }
 
 body {
-    background-image: linear-gradient(var(--default-light));
     background-attachment: fixed;
     display: grid;
     grid-template-columns: 1fr;
