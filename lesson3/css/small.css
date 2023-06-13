@@ -92,11 +92,6 @@ h1 {
     margin-bottom: 0.75rem;
 }
 
-nav {
-    position: sticky;
-    top: 0;
-}
-
 nav > ul {
     margin: 0;
     padding: 0;
@@ -104,11 +99,6 @@ nav > ul {
     display: flex;
     justify-content: space-around;
     box-shadow: 0 0 10px var(--default-dark);
-}
-
-nav a {
-    /* note: only style css */
-    height: calc(100% - 2em);
 }
 
 nav a, span.navR {
