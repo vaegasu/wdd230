@@ -2,8 +2,20 @@
     /* --- nav --- */
 
     nav {
-        margin-top: 88px;
-        margin-left: -10px;
+        margin-top: 140px;
+        margin-left: -50px;
+    }
+
+    #navButton {
+        font-size: 1.2rem;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .social img {
+        width: 40px;
     }
 
     /* --- current date in header --- */
