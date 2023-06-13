@@ -25,7 +25,7 @@ h1, footer {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.9em;
     text-shadow: 2px 2px var(--default-dark);
 }
 
@@ -56,8 +56,8 @@ body > * {
     grid-column: 2;
 }
 
-#logo {
-    width: 20%;
+.logo {
+    width: 50%;
 }
 
 /* --- meet & greet --- */
@@ -87,17 +87,17 @@ body > * {
 
 .social {
     display: flex;
-    justify-content: space-between;
 }
 
 .social a {
-    margin-right: 16%;
+    margin-right: 30%;
     width: 30%;
 }
 
 .social img {
-    width: 40px;
-    margin-left: -209%;
+    width: 25px;
+    margin-left: -400%;
+    margin-top: 430%;
 }
 
 /* --- header --- */
@@ -147,7 +147,7 @@ header .company h1 {
 #navButton {
     background-color: var(--default-dark);
     color: var(--main-color);
-    font-size: 1rem;
+    font-size: .9rem;
     margin-top: -2%;
 }
 
