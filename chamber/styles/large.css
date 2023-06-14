@@ -209,7 +209,7 @@
     /* --- footer --- */
 
     footer {
-        font-size: 100%;
+        font-size: 90%;
     }
 
     .section-1 {
@@ -219,18 +219,23 @@
     }
 
     .logo-footer {
-        margin-left: -70%;
-        margin-bottom: 27%;
-        width: 26%;
-        object-fit: cover;
+        margin-left: -65%;
+        width: 25%;
+        height: 50%;
     }
 
     #name-2 {
-        margin-left: -10%;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: -45%;
     }
 
     #contact {
         margin-right: -70%;
-        margin-top: -22%;
+        margin-top: -74px;
+    }
+
+    p, a {
+        font-size: 12px;
     }
 }
