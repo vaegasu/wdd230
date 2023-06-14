@@ -9,6 +9,12 @@
         font-size: 40px;
     }
 
+    .social img {
+        width: 37px;
+        margin-left: -230%;
+        margin-top: 40%;
+    }
+
     /* --- nav --- */ 
 
     .navigation {
@@ -35,7 +41,7 @@
 
     nav a {
         border: 0;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     nav ul li a {
