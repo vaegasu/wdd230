@@ -70,13 +70,6 @@
     font-size: 25px;
 }
 
-    /* --- main --- 
-
-    main section, main div {
-        height: 100%;
-        width: 100%;
-    } 
-
     /* --- home --- */
 
     .home-grid {
@@ -102,9 +95,9 @@
     }
 
     #hero a {
-        font-size: 30px;
-        margin-top: 115%;
-        margin-left: 59%;
+        font-size: 20px;
+        margin-top: 160%;
+        margin-left: 55%;
         padding: 17px;
     }
 
@@ -228,7 +221,7 @@
     .logo-footer {
         margin-left: -70%;
         margin-bottom: 40px;
-        width: 20%;
+        width: 30%;
     }
 
     #name-2 {
