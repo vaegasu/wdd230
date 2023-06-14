@@ -83,6 +83,10 @@ body > * {
     display: block;
 }
 
+.noDisplay {
+    display: none;
+}
+
 /* --- social media icons --- */
 
 .social {
