@@ -96,8 +96,8 @@
 
     #hero a {
         font-size: 20px;
-        margin-top: 160%;
-        margin-left: 55%;
+        top: 70%;
+        left: -10%;
         padding: 17px;
     }
 
@@ -220,16 +220,17 @@
 
     .logo-footer {
         margin-left: -70%;
-        margin-bottom: 40px;
-        width: 30%;
+        margin-bottom: 27%;
+        width: 26%;
+        object-fit: cover;
     }
 
     #name-2 {
-        margin-left: -40%;
+        margin-left: -10%;
     }
 
     #contact {
-        margin-right: -73%;
-        margin-top: -10%;
+        margin-right: -70%;
+        margin-top: -22%;
     }
 }
