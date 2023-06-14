@@ -304,6 +304,7 @@ main section p, main div p {
 
 .transport-img {
     width: 100%;
+    object-fit: cover;
 }
 
 .spotlight2 {
@@ -314,7 +315,8 @@ main section p, main div p {
 }
 
 .code-img {
-    width: 100%;    
+    width: 100%;
+    object-fit: cover;    
 }
 
 .spotlight3 {
@@ -326,6 +328,7 @@ main section p, main div p {
 
 .treehouse-img {
     width: 100%;
+    object-fit: cover;
 }
 
 .spotlight3{

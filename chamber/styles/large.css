@@ -10,7 +10,7 @@
     }
 
     .social img {
-        width: 37px;
+        width: 50px;
         margin-left: -230%;
         margin-top: 40%;
     }
@@ -41,7 +41,7 @@
 
     nav a {
         border: 0;
-        font-size: 15px;
+        font-size: 25px;
     }
 
     nav ul li a {
@@ -67,7 +67,7 @@
     background-color: var(--default-dark);
     color: var(--main-color);
     padding: 1% 0 1% 0;
-    font-size: 19px;
+    font-size: 25px;
 }
 
     /* --- main --- 
@@ -140,6 +140,7 @@
 
     .weather-img {
         width: 40%;
+        object-fit: cover;
     }
 
     .news {
@@ -199,19 +200,16 @@
 
     .transport-img {
         width: 100%;
-        height: 100%;
         object-fit: cover;
     }
 
     .code-img {
         width: 100%;
-        height: 100%;
         object-fit: cover;
     }
 
     .treehouse-img {
         width: 100%;
-        height: 100%;
         object-fit: cover;
     }
 
@@ -229,7 +227,8 @@
 
     .logo-footer {
         margin-left: -70%;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
+        width: 20%;
     }
 
     #name-2 {
