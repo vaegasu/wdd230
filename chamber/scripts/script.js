@@ -39,7 +39,7 @@ function toggleMenu() {
 const x = document.getElementById("navButton")
 x.onclick = toggleMenu;
 
-// Meet & Greet 
+// Meet & Greet Banner for Monday/Tuesday
 if (now.getDay() < 3 && now.getDay() > 0){
-    document.getElementById("meet-greet").classList.toggle("activeBanner");
+    document.getElementById("meetAndGreet").classList.toggle("activeBanner");
 }

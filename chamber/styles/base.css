@@ -62,7 +62,7 @@ body > * {
 
 /* --- meet & greet --- */
 
-#meet-greet {
+#meetAndGreet {
     box-sizing: border-box;
     background-color: var(--secondary-color);
     color: var(--default-dark);
@@ -72,7 +72,7 @@ body > * {
     width: 100%;
 }
 
-#meet-greet span {
+#meetAndGreet span {
     color: var(--main-color);
     background-color: var(--default-dark);
     display: block;
