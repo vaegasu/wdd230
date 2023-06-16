@@ -60,7 +60,7 @@ body > * {
     width: 50%;
 }
 
-/* --- meet & greet --- */
+/* ----- meet & greet ----- */
 
 #meetAndGreet {
     box-sizing: border-box;
@@ -87,7 +87,7 @@ body > * {
     display: none;
 }
 
-/* --- social media icons --- */
+/* ----- social media icons ----- */
 
 .social {
     display: flex;
@@ -104,7 +104,7 @@ body > * {
     margin-top: 430%;
 }
 
-/* --- header --- */
+/* ----- header ----- */
 
 header {
     background-color: var(--main-color);
@@ -140,7 +140,7 @@ header .company h1 {
     margin-bottom: -5px;
 }
 
-/* --- nav --- */
+/* ----- nav ----- */
 
 .navigation {
     display: flex;
@@ -209,7 +209,7 @@ nav ul.open {display: block;
     font-size: 19px;
 }
 
-/* --- main --- */
+/* ----- main ----- */
 
 main {
     background-color: var(--default-light);
@@ -224,7 +224,7 @@ main section p, main div p {
     padding: 5%;
 }
 
-/* --- heroes --- */
+/* ----- main / heroes ----- */
 
 #hero {
     position: relative;
@@ -339,7 +339,7 @@ main section p, main div p {
     display: none;
 }
 
-/* --- footer --- */
+/* ----- footer ----- */
 
 footer {
     display: block;
