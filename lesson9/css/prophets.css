@@ -6,6 +6,7 @@ body {
     max-width: 1000px;
     text-align: center;
 }
+
 h1 {
     display: block;
     width:100%;
@@ -20,15 +21,16 @@ div {
     gap: 10px;
 }
 
-
 section {
     border: 2px solid gray;
     border-radius: 5px;
     box-shadow: 2px 2px 2px 2px #497B9D;
 }
+
 section img{
     max-width: 300px;
 }
+
 img:hover{
     opacity: 2;
 }
