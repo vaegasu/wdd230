@@ -1,0 +1,41 @@
+body {
+    background-color:#f1faee;
+    color:#1d3557;
+    font-family:'Lucida Sans', sans-serif;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+h1 {
+    display: block;
+    width:100%;
+    background-color:#1d3557;
+    color:white;
+    padding: 10px;
+}
+
+div {
+    display: grid; 
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+
+section {
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #497B9D;
+}
+section img{
+    max-width: 300px;
+}
+img:hover{
+    opacity: 2;
+}
+
+@media only screen and (min-width: 32.5em) {
+    div{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+}
