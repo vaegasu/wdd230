@@ -348,7 +348,7 @@ main .join {
 }
 
 form {
-    grid-row: 1;
+    grid-row: 2;
     max-width: 100%;
     background-color: var(--accent-color);
     border: 2px solid var(--main-color);
@@ -365,7 +365,7 @@ form fieldset {
 form label.up {
     display: block;
     padding-top: 1rem;
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 form label.up input{
@@ -380,7 +380,7 @@ form label.down input{
     width: auto;
     height: 100%;
     padding-top: 1rem;
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 form label.up input:required {
@@ -397,7 +397,7 @@ label.radio {
 }
 
 div.memberships {
-    grid-row: 2;
+    grid-row: 1;
     font-size: .9rem;
     background-color: var(--accent-color);
     border: 2px solid var(--main-color);
