@@ -153,6 +153,28 @@
         display: none;
     }
 
+    /* --- join.html --- */
+    main .join{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 100%;
+	}
+
+	form {
+		grid-column: 1;
+		grid-row: 1;
+		width: 500px;
+	}
+
+	.memberships {
+		grid-column: 2;
+		grid-row: 1;
+	}
+    
+	form label.up input {
+		width: 100%;
+	}
+
     /* --- footer --- */
 
     footer {
