@@ -36,7 +36,7 @@ picture img {
 }
 
 picture img.in {
-    animation: img-come-in 5s;
+    animation: img-come-in 3s;
 }
 
 @keyframes img-come-in {
