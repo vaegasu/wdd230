@@ -154,7 +154,7 @@
     }
 
     /* --- join.html --- */
-    main .join{
+    .join{
 		display: grid;
 		grid-template-columns: 50% 50%;
 		grid-template-rows: 100%;
@@ -170,7 +170,7 @@
 		grid-column: 2;
 		grid-row: 1;
 	}
-    
+
 	form label.up input {
 		width: 100%;
 	}
