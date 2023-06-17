@@ -13,14 +13,16 @@ async function displayBusinessDirectory(business) {
         let p1 = document.createElement('p');
         let p2 = document.createElement('p');
         let p3 = document.createElement('p');
+        let p4 = document.createElement('p');
         let logo = document.createElement('img');
 
         h2.innerHTML= `${member.name}`;
-        p1.innerHTML= `Address: ${member.address}`;
-        p2.innerHTML = `Phone: ${member.phone}`;
-        p3.innerHTML = `Web: ${member.site}`;
+        p1.innerHTML = `${membership}`
+        p2.innerHTML= `Address: ${address}`;
+        p3.innerHTML = `Phone: ${phone}`;
+        p4.innerHTML = `Web: ${website}`;
     
-        logo.setAttribute("src", member.logo);
+        logo.setAttribute("src", image);
         logo.setAttribute("alt", `${member.name} Logo`);
         logo.setAttribute("loading", "lazy");
         card.setAttribute("class", "dirMembers");
