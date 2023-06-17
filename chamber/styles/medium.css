@@ -183,13 +183,7 @@
 		margin: 0;
 		align-items: center;
 	}
-	
-	.directoryCards #grid {
-		display: grid;
-		grid-template-columns: 250px 250px ;
-		grid-template-rows: 300px repeat(auto);
-		gap: 5px;
-	}
+
 	.dirMembers {
 		grid-auto-flow: column;
 	}
