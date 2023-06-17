@@ -208,14 +208,34 @@
 
     /* ----- directory.html ----- */
 
-    .directoryCards.tile{
+    .directoryCards {
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-auto-flow: column;
         gap: 5px;
-        }
-        
+    }
+
+    .title {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-auto-flow: column;
+        gap: 5px;   
+    }
+
+    .directoryCards p {
+        font-size: 160%;
+    }
+
+    .directoryCards h2 {
+        font-size: 35px;
+    }
+
+    .directoryCards img {
+        width: 40%;
+    }
+
     /* --- footer --- */
 
     footer {
