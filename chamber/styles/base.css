@@ -427,6 +427,65 @@ form input {
     font-weight: bold;
 }
 
+/* ----- directory.html ----- */
+
+.menu-opts {
+    display: horizontal block;
+    width: 100%;
+    align-items: center;
+}
+
+.directoryCards {
+    display: inline block;
+    width: 100%;
+    height: auto;
+}
+
+.directoryCards.tile {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.directoryCards.tile img{
+    max-width: 150px;
+    height: auto;
+}
+
+.directoryCards.list img{
+    display: none;
+}
+
+.dirMembers {
+    background-color: var(--default-light);
+    border: 2px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    overflow-wrap:break-word;
+}
+
+/* ----- Thank you page ------ */
+
+h1.tyvm {
+    display: block;
+    background-color:#293241;
+    color:#ee6c4d;
+    padding: 10px;
+    align-items: center;
+}
+
+p.tyvm {
+    display: block;
+    background-color:#e0fbfc;
+    align-items: center;
+    
+}
+
 /* ----- footer ----- */
 
 footer {
