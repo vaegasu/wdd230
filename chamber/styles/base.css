@@ -406,7 +406,7 @@ div.memberships {
 
 div.memberships li {
     list-style: none;
-    margin-top: -.5;
+    margin-top: -0.5;
 }
 
 div.memberships h2, h3 {
@@ -436,12 +436,6 @@ form input {
 	text-align: center;
 }
 
-.directoryCards #list {
-    display: inline block;
-    width: 100%;
-    height: auto;
-}
-
 .directoryCards #grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -452,11 +446,6 @@ form input {
 }
 
 .directoryCards img {
-    width: 50%;
-    object-fit: cover;
-}
-
-.directoryCards #grid img{
     width: 50%;
     object-fit: cover;
 }
