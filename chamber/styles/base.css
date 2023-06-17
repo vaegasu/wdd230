@@ -441,7 +441,7 @@ form input {
     height: auto;
 }
 
-.directoryCards.tile {
+.directoryCards .tile {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -450,23 +450,28 @@ form input {
     height: 100%;
 }
 
-.directoryCards.tile img{
-    width: 100%;
+.directoryCards img {
+    width: 50%;
     object-fit: cover;
 }
 
-.directoryCards.list img{
+.directoryCards .tile img{
+    width: 50%;
+    object-fit: cover;
+}
+
+.directoryCards .list img{
     display: none;
 }
 
 .dirMembers {
     background-color: var(--default-light);
-    border: 2px solid gray;
+    border: 2px solid var(--main-color);
     border-radius: 5px;
     text-align: center;
-    width: 100%;
+    width: 90%;
     height: 100%;
-    overflow-wrap:break-word;
+    overflow-wrap: break-word;
 }
 
 /* ----- Thank you page ------ */

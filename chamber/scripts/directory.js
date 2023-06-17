@@ -17,10 +17,10 @@ async function displayBusinessDirectory(business) {
         let logo = document.createElement('img');
 
         h2.innerHTML= `${business.name}`;
-        p1.innerHTML = `${business.membership}`
-        p2.innerHTML= `Address: ${business.address}`;
-        p3.innerHTML = `Phone: ${business.phonenumber}`;
-        p4.innerHTML = `Web: ${business.website}`;
+        p1.innerHTML = `Business Membership: ${business.membership}`
+        p2.innerHTML= `Business Address: ${business.address}`;
+        p3.innerHTML = `Business Phone Number: ${business.phonenumber}`;
+        p4.innerHTML = `Business Website: ${business.website}`;
     
         logo.setAttribute("src", business.image);
         logo.setAttribute("alt", `${business.name} Logo`);
