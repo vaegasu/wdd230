@@ -347,6 +347,10 @@ main section p, main div p {
     grid-template-rows: 100%;
 }
 
+.join h1 {
+    color: var(--main-color);    
+}
+
 form {
     grid-row: 2;
     max-width: 100%;
