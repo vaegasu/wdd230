@@ -436,7 +436,7 @@ form input {
 	text-align: center;
 }
 
-.directoryCards {
+.directoryCards #list {
     display: inline block;
     width: 100%;
     height: auto;
