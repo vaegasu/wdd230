@@ -441,7 +441,7 @@ form input {
     height: auto;
 }
 
-.directoryCards .tile {
+.directoryCards #grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -455,12 +455,12 @@ form input {
     object-fit: cover;
 }
 
-.directoryCards .tile img{
+.directoryCards #grid img{
     width: 50%;
     object-fit: cover;
 }
 
-.directoryCards .list img{
+.directoryCards #list img{
     display: none;
 }
 
