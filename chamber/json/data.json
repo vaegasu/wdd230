@@ -4,7 +4,7 @@
             "name": "Jenicka's Nail Salon",
             "membership": "Non-Profit",
             "address": "1234 1st Street, Long Beach, CA 90813",
-            "phone-number": "(562) 562-5625",
+            "phonenumber": "(562) 562-5625",
             "website": "https://www.jenickasnailsalon.com",
             "image": "https://png.pngtree.com/png-vector/20211107/ourmid/pngtree-salon-logo-png-image_4024992.png"
         },
@@ -12,7 +12,7 @@
             "name": "Eirilani-landscaping",
             "membership": "Gold Membership",
             "address": "1007 Chippewa Avenue, Long Beach, CA 90811",
-            "phone-number": "(562) 519-1133",
+            "phonenumber": "(562) 519-1133",
             "website": "https://www.eirilani-landscaping.com",
             "image": "https://cdn.logojoy.com/wp-content/uploads/2018/05/30154820/339.png"
         },
@@ -20,7 +20,7 @@
             "name": "Lani's One Stop Shop",
             "membership": "Silver Membership",
             "address": "1210 Gardenia Avenue, Long Beach, CA 90800",
-            "phone-number": "(562) 599-1012",
+            "phonenumber": "(562) 599-1012",
             "website": "https://www.lanisonestopshop.com",
             "image": "https://w7.pngwing.com/pngs/529/166/png-transparent-flower-logo-black-and-white-plumeria-white-leaf-orange-thumbnail.png"
         },
@@ -28,7 +28,7 @@
             "name": "Beauty's Brewhouse",
             "membership": "Silver Membership",
             "address": "110 Broadway, Long Beach, CA 90801",
-            "phone-number": "(562) 592-1012",
+            "phonenumber": "(562) 592-1012",
             "website": "https://www.beautysbrewhouse.com",
             "image": "https://static.vecteezy.com/system/resources/previews/002/412/377/original/coffee-cup-logo-coffee-shop-icon-design-free-vector.jpg"
         },
@@ -36,7 +36,7 @@
             "name": "JJ Fish Market",
             "membership": "Gold Membership",
             "address": "1323 Ocean Avenue, Long Beach, CA 90830",
-            "phone-number": "(562) 534-1412",
+            "phonenumber": "(562) 534-1412",
             "website": "https://www.jjfishmarket.com",
             "image": "https://static.vecteezy.com/system/resources/previews/000/565/655/original/fish-logo-template-vector.jpg"
         },
@@ -44,7 +44,7 @@
             "name": "Looking Glass",
             "membership": "Bronze Membership",
             "address": "230 Walnut Avenue, Long Beach, CA 90802",
-            "phone-number": "(562) 549-7812",
+            "phonenumber": "(562) 549-7812",
             "website": "https://www.facebook.com/lookingglass",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/768px-Magnifying_glass_icon.svg.png"
         },
@@ -52,7 +52,7 @@
             "name": "Long Beach Certified",
             "membership": "Gold Membership",
             "address": "1120 Anaheim Street, Long Beach, CA 90892",
-            "phone-number": "(562) 599-1012",
+            "phonenumber": "(562) 599-1012",
             "website": "https://www.lbcertified.com",
             "image": "https://yt3.googleusercontent.com/ytc/AGIKgqMC0YxTIzz7AAtxopBR91y36snzK45phKzSuxwt=s900-c-k-c0x00ffffff-no-rj"
         },
@@ -60,7 +60,7 @@
             "name": "Tire's Automotive",
             "membership": "Silver Membership",
             "address": "340 Cherry Avenue, Long Beach, CA 90823",
-            "phone-number": "(562) 549-2212",
+            "phonenumber": "(562) 549-2212",
             "website": "https://www.tiresautomotive.com",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXoB6hDSY6OEimkE6jLwIgOZLWhlp8jmILRA&usqp=CAU"
         },
@@ -68,7 +68,7 @@
             "name": "Pretty Lashful",
             "membership": "Non-Profit",
             "address": "1220 Pacific Avenue, Long Beach, CA 90300",
-            "phone-number": "(562) 539-1982",
+            "phonenumber": "(562) 539-1982",
             "website": "https://www.instagram.com/prettylashful",
             "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVIAAACVCAMAAAA9kYJlAAAAkFBMVEX///8JBw4AAAAGAwwAAAYAAAMAAAnz8/MFAQv7+/v29vbAwMGlpaa0tLXo6OgjIibMzM3Z2dqtra6WlpdLSk2fn6A6OTxFREeYmJlaWVzHx8i+vr8oJytwb3GCgoOJiYo9PD96enxkZGYcGx9nZmgREBXg4OF3dngwLzLT09QZGB1UU1aIh4k0MzdcXF5IR0pgq+t5AAAW00lEQVR4nO1dB1viTBcNhxIgmfTeeyXh//+7byZBrOuqK4Lvx3meXVERhpPb5+YOx91xxx133HHHHXfccccdd9xxxx3/l+AltW0VgRDiK9deyy8HrxKzNoISQDf0keir+9211/R7wStOYWHCepEH1hgdYt0UiaCo+2uv7RdCIlE3kblczFhuVzhhE1iWnfrXXuJvws5LmXCuKJHbSUS3i2eQBzs0Benay/w14En2IJz0y8IyentghhSPvG7LoBkTYNTVa6/29rHzXcbeIsgppQiJxPP7Pc/zUivG+XaxWWOW3k3ZuI4m1vKibq+95ptGW1PCgphoBzvYzlL6BJTRxM5c17WZRVjJfdmFpCXjIFx73bcKXpQB1/RIfaZwcfZMp8dMSleLh8e1o484Et67C+pbqGrqz+06a2j0adSxo6ducOY0l18Y05loKtGppvUo7qH/a7QjjYyoMiPoY9M8jFb3hMGlXDhE8LRi+yiiJ7CwKozrAOY9Tn2GtgfKiaKyyyedX21fiCMgj2IrRMFjnEpVf1XK7Ffjvgrh3Ek9gxJq20H3QN9zMZwdPA0BprBfjjSBWdpTKNWMTZOaMbUVacWJiXbtT3IjqIxE1xOs8TYyn4Qy0nCNwC569pNC048nUjeNKUT0KSpxUWp8G1fX/jS3gDRUNabrpdWHka7TBF7UCPF9XxA8QRB0SqHHk6D2tA5lIcbMTTW16c6kUlPah9QKZ77kDwiru+5zLZF2pqNU/DtPoXrd6xayllC72Zj1erFhaVM9uy9K6mxqC6UNYXg/t/bbBE+z9A/U6XZaxiypQQ4L0+6S1eSvXBKVW6b6A8o6ATW3eewXGO61lI9CNWmYNRSBLmRULqewoIio8iPitBFxTR9S4c2KAMk9l/o4WmegTMaaDdQxVrM5RR/ZMuTyFB/klG3rHvl/Aj6Tz2O3REbkU+iKstsszmHscrnMSxT3ut8nEM0ZFI1Rz6XpF6Hscps3iK+9zt+ENsBy+5gTPMT9T7EtDUv+v3f+n0EK+cwjeuN53r9ZThlsE8r1fdPv4xDc6CyciEjwRFA3Qzd9t0GoD/ea38chxYqMcq6twBaKR06X5aGYCytoSCxee6H/hr0qEM0UTY34yjvZ0Pdgx3M6EpmSt6RhfzZsHjlFLM6mYIVI1dpfqv2qlg7IjaKOJtRZM6S6yl242F4dR5rfyyXNnB4ZZeJZKOUstghaLvp9ef9O0cNYj0UnKkbDTiwrSY5Gn7nJMq/j1LxogCgaNO8/GvNm6hNOk7aZv11D3/UXV5nvBolqY/tQiluvKOY63Zo1MiwC9OSCYiJlbUzTJ2y2Qf9kGwWdZ58ohlF1v2hjeqc6FtX3UDf1NLRfbGFMn2ezYVWi6IJlTM1rFwmhV7EnTyJULPzkgdNAwy/x/DshLQ5aJSmkNoLj4llwuJx3M8p62pCjMpxeVPkOoEKJvjrinEpt4Zw5RQjvVzipluf2im43xtinrMz2lNG879lPlgiWDxRfdBND6fwa6JQIy3w2qtRl1cMDp+sBovALSK1MYxjr2m6edoI9xIaNEbJukcV2O/+qpKJyycXsMiKych+NOwi1osioZYXbTMWAcaD2B1ogkEuu4J+hxklRh5FOSBw8C2AWU+693JxY3gZFzmLH0k1hXHRFmulPHZMr+NZqAd3BCja9rPRiigYWq3UL3bxZ38/7lMw41BQhlvE8JGQbmnn39Adlb7CSEfr4wpxKYouGJqMb9KwyXXsl1iW9umEDP6OC2yhIb3W7b0/0sI/F2MBLPlmUrWmH5A1PRT9SM0SXXZhUecWIZblgq0KiMGrp+2sRSEo5LQ/Iila6PVYlqkZ50g/l8oUBndCVeGwI2a5WU6Q6u64NbPfywYxKTepiYMkToGczp8SHHlPdLy0YmU9uK6LiRRqswIr0OugW5WtGnxkAbORgSIJAnr5ZbnMc0h9YY2VhkxksnIIxFf6XECukNVicR1MtUbuhvSkysn4PnTj2wkryPzC62S4ZhUNEzjvJfKVQgcFyLPUf0ToTiB0moOuH6+vwZVPApfkV5VSPb8T1VymCfFFo4hHlYC1Wb2g9q/2UjYyuIG+4ViUdzMPP7LNJBjTxqV1CtJfLrvep7Ud/rItbqPl5Rqenci3WVAKXy80buee052tnVhl6f8rppcvWUJ6CoGAVvpLGb4vJsIb7gaYbLVjMmvTW1bun/DFutc5mdyRsp/4O+bWMrtGEodXfiE5x+1B2qL7k6xxNNnNKAz5F2lBOw8BaXXlbWlB3ory18tMNHs0hK19SSgU0zob4lrZ6lSY6IhjGHhGNAo4o+I5yyueU06jMt9J11yqWCMrZemIlmsHL/BPI4iy7uR1JJyxgj2aNg4CNiaLCGmQfYLtNgcC7ouPXNlQ8T2WRlSUOL+N7mlrr400J6AMkGjrZkRkh9BDoKASa+Kc8jVrlCIi0+kpr9pqnFG4Dpv3bZ4QapNZudTPC0xtZiyME4rbpEWpU6wMhMaYOSmW0uB83qXuJGC86D7bMEQXl+Ts0HndDofMr7HbhSitowldSa4UwZh1+x2CEbsNqEbc/yql08B8aY5/ruV3k84+XKMtbiPD+AlLSLB+bZvL7bHt6DdcAAcQI0kVLjs/B14WXym/0xiCmOkO5ZiqfxLeq8M8gRTuf2k6LSgDChFkuHEqLlF2Lsf2ZhI5CBCFhifVrRrMA+o4lzHB/bDX/DLGSAmg0RC3R5wl1+QsHemhnMdTsZ+SUTxqzdmh22U8snoOlqUjeSHwDGlV5u1+w9fCAtuJSEBnZAkNOsGG7qoI86Mj8XvuBzyGgF90DYOnbJQ3tx3OBJOm20KkE291lt5IuAwKSwOnQZS2W0IdAM4YcqmG0F9e2GK45bCF3Gdvi2JDwFNmvC5rSCQ7sdPM7bOhLVI1g5G0D+CI1XCaisAf02BAPl3tPGvoqXF0aInXpR1ZjBlA3TdRN/YWLbVn6RqeFl91BviRqsS6lEeVuRDdE1MuW68Dr7Uvt4NBEnt8JpF7IWtmh6ORtidQDluFiM/l3IzDMzlRvMk/6KIguLvgY4g6rrq/llIbdSijjMm9WhaomxG6al2JnW3oQURZNrplvKuo7qu4IM33P/WZCOVZgbBteg0JQJoVuHDs4aQiP4y8Q8zeVq7pZg22a24VopbASnzOmW190z1o44VYUf63CP8FO3YWKCr9Ad2xty8CRRPQTct9fldSjSBiyYA15sAqtt0p7rLhp9xaCh5AE0S8Kmf4GQvaGOeDotshK+DoMkYu5b97mk0DqUB4XuYHS0GtsjnWV5NTgQK4OEOLwl+v7C/AaH6cNishEaysxzV64kPvme1Dq1I4Q0oyiZxMDqPHUvRXQ2Qil44G1P/3XoLRCHXSxaDitrodI/UL61nIFr1DXgwTxSLCVTZprihpc9AU01fhFzZmfwZ7j/d4SCHjdNBFrmf+NBbWW01I3sUoUB01eUVlF4cfwjaiwJM38vve5QURm64SV3yJ0w0j5tvyF17jatl0s8jgMwZrsImHMPcNMHE77b5nQ1/AIN7aKgiJJx+/zF5qq1YYrb1eJpQOs13VnuWai9/91OifQOGbk/L7exKP9bS9a7MciSFlIr2EYgbZa1aEh3sru8eXBi2Js2kLzfZWgpOptrVhuYTZllUPxcMjF6020uMobC1zfyt/2alIhxi63lMsxHPgCgtPUxjVV/uc6Up5C8Y/fV+FTxExQY9nK9UGqLaHWqyvvx7tX4JQXvW/M8QUhItLK7cVQihxyA23C/BWaa3YfmbDyYVQt4cLRKdRKVG8jqm/x2ye+8LxUSHrF3U7SKdKU+5dD2HO3tZUUor72Ev5zsND/yt2tGwYPBP8XydsPQgG292FP3wsNK/y3q2A/D9YjlP2HNmduAT3rBb2NSPkmIH1QaffvZL/sjmX8gmbLn4GEjyYO7wT1+5JVb4t7NMUgfTylTN+JlXjW34rVzd1WcQUon0go1fGdX0rzbVYXvkH6F0D41IAI+z2B1uahGvJt3Zz849CRfebpEt5LkzbzCDik/88WdcR7qvwakoc/12j50zlPS+S/veD3ZUjNZ8dtCNRQ/CFSatPHW65WMK5fHb8GNOD4yT/xeerOmlcyWJEweD7Y5/9S+/cFYH32j3xp/sM+FtkBBUR04mgM5vMHn2MJ6N9EqvJLylwCpeHz7QXtVP1ujWenaKzfHKDASHX+efNhp0To//VFfgR8hg2Sz9c5JHf+2havJni9ge0/DvDjSUhformdTaF3wAbfwPpK5WhgFPE82/llovr2hI9npNpvzfn4O3aqk7AhNrAvW+Daf8vBs17HJrF8iVFOY2HsXjv41E7uhah5d7DPyVHBFT9Zo5LYeTzzcSYXTcb2dbDpGnvU/X8KUNSeuRLkX/QdzVy18jPZqA+6U+R/Vf/5bNJQ+yCtFUnl0/iqJS48q2rHV2J58gij+cWpyV4/3feM7qtelH8YxblrHfttg/rWeJoNfWo3iu8fRMwr4vhA5yTgPxHc8sPpRnCgpOr0SVp3JMFp5vrXF1tR8+j209BjK3hL71fDG7dcP9CKvhbfCIqk1o+LBnh+2h6KL6/yE+Dl9ZMFrkf94+PG1eh89gL+pS17pycP4dNqu1m9ElTsyR84PQkDGwnWp7pjiqLp6HF4LP8UjOEnBqrR5OXJW05WqgxNRfqbvFZ68DjG8J+33ipNL+yAeZ5uOLry8ulxhMikxct5iS95XZ5P0J6w+aM9/hlO+5ciMC0voAol/EGbK1I3T9ObT5ZK3nzJ2FQlXmIHDYcsZ3g8g3RZkjcGA3wZP9IdpLypVafLvrXDg0NUiqraMwtlRsbLdBH/3O7KbI0QzudldrboC+4TsSzXf5HRD7M5+dFP58xfQPRnQ3XyACeUzYnm509Z4p83Mv0iFZhr3PP7vaTqUxCxeuJXHo3im7PpPsioqU+cuhcvv+izy/77Wpebt3PvD6rS+90jXsEMaZmfR/RjsBcPJhH2w0i6lfUVTk9BiS3NuwSILnpz3C4DM1vIky9f/49R2r4ft1JBlwRRT4sxCyNd9CVeSRDMk+igi+dzc8yZlb+nAyes2ZYgk5o1tVfN/BnZZbOLyNSI9v3DTCURx6hkE0f54j31f5/S5CNv9ZeYgE8fd0KZkzKPSDQysNMcV9Nhgw9vNv1ndH/m9NkgJowOFmgZr2L/OP/XypI8b4ziPHD726p9NMjWRJaed+qk/l90Ax+ZdPL3qpw+ONUcuaVTBE+0I+NgtTCal1cb6nlO+qtJVhDtJz/admyCmcqktJHmw2CW68UyP4pPSZT876mk+KIeEpVNLoFMnIANfpON9VfUf/n31En5QNsIrwNJVhTZsVxuAxZXMBVtgmZ4eak3Z7GFrr7gFNwzfUNIKfWYE0BRTeMvGgMrlh/YsccGAe9VLfy2jmXvMJfPcZDE6SgvpAm+Zv7Lv3BauR9bkmqOwykdsqdgw+hTbXxjpNr5wbh7Renz57NJW/PwcrjUPGPMjXjAWj7IJzf4jadr804cJivZSEkaRpPRAsGYPj3k58NOAO8npNXyEx6WlyTJE2v66UPCc5L+1nmDE5jsrgLv/OvtdHwHdo+py3IeuQjTn01wWVs0NXTLKA5QS5XmOKL3vXsme7p4ZkQkfbFmp3rQuK19QiO9oB/mdPPeKZXq52oqrRhTlz+VQpQQZTeNq3mNVbNhtpIGA/PZCMhm3nbGk2PfcmZ0Ye2nWJoVWgsZSW8kenpIxljzLhBNtWGflM1YJLaLiEd/EtI5dtGSTySCf+4JEfGlhuaWpIHcuxbLjR/rU2ezukQ9azM2zfRDHGZK98cTpdtgBKYPBIXFXojjLQqiHSR+InIvtW11iQr/bteapqboCLkjSkwR4Ha1pTYI5A+UsmrJ8pXkUEV9S4lU+wvJFVX8PhtyZuqDSHAeZ/jDOj8Ki4czc+z1RPGp3adlij9NttooVCxjRmbAyViscm4nRNSgNP14uGzzGu95+oADR9NAeD1KujoPa+omxOZNX4VUXi27V8UWRqr4UsM9F/mnrJVyFhupVRRV2knmorRPFmiDmr1tvqEU0zWeTj5axpMk2idK9RDr4yQLIBrgxyxKjFnL2sMeybdsDv3lY2iHQqhkRIM/omBGVQLaFfQXp+Q8pIfT0Dr1Zao/SQq6WmslfkrXK8LqqSn3qYFB0vgQwfKCpqdGE6Qk6qZ1bNERurrVAHnYrK2HGirGOXUvmA9abZbolkgne7oOuDhf7CmvS/ge6K9+qrFSUk2HZHB2nthAL9jRTPIKfI1IxtPzkpfdw4cIQ0qV85bTmOuWZWMNc4yStJz0ydE2JEjMJ8IumWxALg3QsdaFBtu1uwgO7LK7D6vxJv5woDZrbVsruuRVecpbU+4Q9pzk0pWQFivj3ws8H4SajqEem9GAxC/YFmIQ+uAFRHTtZ6e/XKyPJ+dFxYXmB0L5WkxP2MwnEqL32ASqz6/nEARGamqaFrvz8Uf0tSzTz0Az9roM6DtvyofgCcOpGKLrbGa+jo75pI6tbWXD5ESNLoBn87Qru6l/9P5UXixcUQ+w8bne4MxQ3VNDoEzJRzbZ++V2NVfXV+6UKAb1m7HNbCu2gZvSCGDvDF/4DKoYNc+K9EgiU6fp1IqmPOhVNhufnI9wFOL5wJwoxoZFLUYIH1MOC4OAcBXRqR3ySsiCWKbjzw5hrGJPowwYR5aSF1yYuf5woDqesSOo2JFJRJjigVyb6plvC+kw1afRO6JOw3Xni7VJySN6nbmGm9U6oS5L8qNERu6k0Ct2lms2afaWuhyDB5taSQXUoUSmXJpzsp2l2TT5xp87sgnldHegGZkYjYfDKx96aRA481ciUV0SUWGAQO17TUksOXe++lXwpoRO9iEWU+pwgTxJCXG+ybmqcVFuRNIMlY+Vhdxn9nVNQ1FU41Bg26UIHBqp9hwPlTrXQQU16zF4vjgf7co7AVb9mOk/O7fFK86DjDy/J/YOShojYuWc8rFIAXdv/5FTNIXBqrytUB+/pRrJV35UlqHgJYPAj4gJSqFcTZWFBPEB0mJEVlHLDUHOeU4YWIXNtzYWekWmKW2ke9V+1pY9DW4c74otUVXUS9RPuTT90efNULTDNNoQGRc9PcLg8eHJ+LHaR/jvjR0734nSNHJIpYhjrEoRauo2AzFnrTjuvoac5bvDmMGdbj1rI5dKoDZyUpDLECxo/MhsuaRefjjxByEqBqcPakzVn52fyFTfxxZ1yAKtJ6fTboPz415sJck30H/vkd+8uuP9PjD39FKODtbTyaahW6Lg2iCKqUlqWRGPT1nvQxvq6sGkNGfU47emclO3+Qh6zCl2Kqm9sNP6qdGHMomK/ldw0vEkqDQXbAssH3f+5AvMSCEma9gTIUepQQkNedUWE6oIVRl7nGUQLltF/Z6oKbuU7J9InULrJtopo78daDT7UamrklivD+sK6X0a4LS8waYQaAuWQnU0dpTDEcuMxGmkax9vV/kc9jR3MgSO0EvLpidLakNNtRqwpdVaQP2S0Fm+uj/HGAIbPsGr/vttU1eApJ0dJK9xNH8pnQPTOnYixY5zOiaURayJZC7qXKpnuxKjVFT2FQ3lMzK9k+nSS9fOiYQqmiHXDkKkPNuQEd1YUKsbE9LXEBIs+xKBplKL2vX9sc6mInwdpXUYOpftgtdI9VCO86bc8oEunatFTjBM8cV4Il5SpVsT0jcgOIURdGtsBlOc7NReUnyiEUW6njz4PEf9oTpG2q249t+Pk3ZoxR9PQ7zjq7iiqtxxxx133HHHHXfccccdd9zxK/A/yDi5+4TilL8AAAAASUVORK5CYII="
         },
@@ -76,7 +76,7 @@
             "name": "Sweetie Sweets",
             "membership": "Bronze Membership",
             "address": "22 Pike Boulevard, Long Beach, CA 92340",
-            "phone-number": "(562) 519-1133",
+            "phonenumber": "(562) 519-1133",
             "website": "https://www.sweetiesweets.com",
             "image": "https://cdn.dribbble.com/users/493807/screenshots/4473346/_10_30daylogochallenge.jpg"
         }

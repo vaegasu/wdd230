@@ -19,7 +19,7 @@ async function displayBusinessDirectory(business) {
         h2.innerHTML= `${business.name}`;
         p1.innerHTML = `${business.membership}`
         p2.innerHTML= `Address: ${business.address}`;
-        p3.innerHTML = `Phone: ${business.phone-number}`;
+        p3.innerHTML = `Phone: ${business.phonenumber}`;
         p4.innerHTML = `Web: ${business.website}`;
     
         logo.setAttribute("src", business.image);
