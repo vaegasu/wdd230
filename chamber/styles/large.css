@@ -206,6 +206,16 @@
         object-fit: cover;
     }
 
+    /* ----- directory.html ----- */
+
+    .directoryCards.tile{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-auto-flow: column;
+        gap: 5px;
+        }
+        
     /* --- footer --- */
 
     footer {
