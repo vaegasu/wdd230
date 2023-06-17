@@ -39,5 +39,9 @@ async function displayBusinessDirectory(business) {
 }
 getBusinessDirectory();
 
-const tile = document.querySelector(".tile");
-const list = document.querySelector(".list");
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
