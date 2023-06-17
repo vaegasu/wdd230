@@ -1,20 +1,20 @@
 async function getBusinessDirectory() {
     const response = await fetch("json/data.json");
     const data = await response.json();
-    displayBusinessDirectory(data.business);
+    displayBusinessDirectory(data.businesses);
 }
 
-async function displayBusinessDirectory(business) {
+async function displayBusinessDirectory(businesses) {
     const cards = document.querySelector(".directoryCards");
 
-    business.forEach ((business) => {
-        let card= document.createElement('section');
-        let h2 = document.createElement('h2');
-        let p1 = document.createElement('p');
-        let p2 = document.createElement('p');
-        let p3 = document.createElement('p');
-        let p4 = document.createElement('p');
-        let logo = document.createElement('img');
+    businesses.forEach((business) => {
+        let card= document.createElement("section");
+        let h2 = document.createElement("h2");
+        let p1 = document.createElement("p");
+        let p2 = document.createElement("p");
+        let p3 = document.createElement("p");
+        let p4 = document.createElement("p");
+        let logo = document.createElement("img");
 
         h2.innerHTML= `${business.name}`;
         p1.innerHTML = `Business Membership: ${business.membership}`
