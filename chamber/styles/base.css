@@ -451,8 +451,8 @@ form input {
 }
 
 .directoryCards.tile img{
-    max-width: 150px;
-    height: auto;
+    width: 100%;
+    object-fit: cover;
 }
 
 .directoryCards.list img{
