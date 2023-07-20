@@ -116,7 +116,7 @@ body {
     width: 100%;
 }
 
-.index section{
+.index section {
     display:block;
     border: 2px solid gray;
     border-radius: 5px; 
@@ -124,17 +124,17 @@ body {
     width: 100%;
 }
 
-.hero-1 div{
+.hero-1 div {
     display: block;
     text-align: center;
     align-items: center;
 }
 
-.hero-1 span{
+.hero-1 span {
     display: block;
 }
 
-.hero-1 img{
+.hero-1 img {
     max-width: 200px;
     padding: 10px;
 }
@@ -173,16 +173,16 @@ fieldset {
     height: auto;
 }
 
-.fruit-cards img{
+.fruit-cards img {
     max-width: 200px; 
     height: auto;
 }
 
-.fruit-cards p{
+.fruit-cards p {
     display: block;
 }
 
-.services ul{
+.services ul {
     border: 2px solid gray;
     border-radius: 5px;
 }
