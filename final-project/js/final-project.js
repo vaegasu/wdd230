@@ -13,19 +13,19 @@ fetch(apiURL)
   document.querySelector('#weatherDesc').textContent= desc; 
 })
 
-const requestURL = "https://raw.githubusercontent.com/vaegasu/wdd230/main/bountifulfruits/data/fruits.json";
-const cards = document.querySelector(".temple-cards");
+const requestURL = "https://brotherblazzard.github.io/canvas-content/fruit.json";
+const cards = document.querySelector(".fruit-cards");
 fetch(requestURL)
     .then(function(response){
         return response.json();
     })
     .then(function(jsonObject){
         console.table(jsonObject);
-        const temples = jsonObject['temples'];
-        temples.forEach(displayTemples);
+        const temples = jsonObject['fruit'];
+        temples.forEach(displayFruit);
     });
 
-function displayTemples(temple){
+function displayTemples(fruit){
     let card= document.createElement('section');
     let h2 = document.createElement('h2');
     let p1 = document.createElement('p');
@@ -34,17 +34,17 @@ function displayTemples(temple){
     let p4 = document.createElement('p');
     let picture = document.createElement('img');
 
-    h2.innerHTML= `${temple.name}`;
-    p1.innerHTML= `Address: ${temple.address}`;
-    p2.innerHTML = `Phone: ${temple.telephone}`;
-    p3.innerHTML = `Hours: ${temple.hours}`;
-    p4.innerHTML = `Services: ${temple.services}`
+    h2.innerHTML= `${fruit.genus}`;
+    p1.innerHTML= `Name: ${fruit.name}`;
+    p2.innerHTML = `Family: ${fruit.family}`;
+    p3.innerHTML = `Order: ${fruit.order}`;
+    p4.innerHTML = `Nutritions: ${fruit.nutritions}`
 
     
-    picture.setAttribute("src", temple.picture);
-    picture.setAttribute("alt", `${temple.name} Temple`);
+    picture.setAttribute("src", fruit.picture);
+    picture.setAttribute("alt", `${fruit.name} Temple`);
     picture.setAttribute("loading", "lazy");
-    card.setAttribute("class", "temple-cards");
+    card.setAttribute("class", "fruit-cards");
 
     card.appendChild(h2);
     card.appendChild(p1);
