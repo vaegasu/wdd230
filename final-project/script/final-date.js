@@ -1,13 +1,13 @@
 // Current Date
-let date = document.getElementById("currentDate");
+let date = document.getElementById("#currentDate");
 
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
 date.innerHTML = fulldate;
 
 // Current Year 
-const currentYear = new Date();
-document.querySelector("#currentYear").textContent= currentYear.getFullYear();
+const yearCurrent = new Date();
+document.querySelector("#yearCurrent").textContent= yearCurrent.getFullYear();
 
 // Last Modified
 var temp = document.lastModified
