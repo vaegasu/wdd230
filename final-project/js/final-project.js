@@ -1,6 +1,5 @@
 const today = {month: 'long', day: 'numeric', year: 'numeric'};
 
-
 const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=38.9807&lon=-77.1003&units=imperial&appid=6029cdcec6e4ff661fe81b24b74ac429";
 fetch(apiURL)
 .then((response) => response.json())
@@ -54,5 +53,37 @@ function displayTemples(fruit){
     card.appendChild(picture);
 
     cards.appendChild(card);
+}
+
+// Current Date
+let date = document.getElementById("currentDate");
+
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
+date.innerHTML = fulldate;
+
+// Current Year 
+const currentYear = new Date();
+document.querySelector("#currentYear").textContent= currentYear.getFullYear();
+
+// Last Modified
+var temp = document.lastModified
+var n = parseInt(temp.substring(temp.length-8,temp.length-6))
+if (n>12) {
+    document.getElementById("lastModified").innerHTML = "Last Updated: "+
+        temp.substring(0,temp.length-8)+(n-12)+temp.substring(temp.length-6)+" pm"
+}
+else {
+    document.getElementById("lastModified").innerHTML = "Last Updated: "+
+        temp+" am"
+}
+
+function scrollDown(elem) {
+    if (elem.scrollTop < 100) {
+        document.querySelector('#scroll-down').className = "up"
+    }
+    else {
+        document.querySelector('#scroll-down').className = ""
+    }
 }
 
