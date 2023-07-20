@@ -7,7 +7,7 @@ date.innerHTML = fulldate;
 
 // Current Year 
 const yearCurrent = new Date();
-document.querySelector("#yearCurrent").textContent= yearCurrent.getFullYear();
+document.querySelector("#currentYear").textContent= currentYear.getFullYear();
 
 // Last Modified
 var temp = document.lastModified
