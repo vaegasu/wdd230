@@ -156,7 +156,7 @@ p {
 }
 
 img.in {
-    animation: img-come-in 5s;
+    animation: img-come-in 10s;
 }
 
 @keyframes img-come-in {
