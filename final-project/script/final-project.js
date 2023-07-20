@@ -15,7 +15,11 @@ fetch(apiURL)
   document.querySelector('#weatherDesc').textContent= desc; 
 })
 
-// fruits //
+const currentTemp = document.querySelector('#current-temp');
+const weatherIcon = document.querySelector('#weather-icon');
+const captionDesc = document.querySelector('figcaption');
+
+// fruit-cards //
 
 const requestURL = "https://brotherblazzard.github.io/canvas-content/fruit.json";
 const cards = document.querySelector(".fruit-cards");
