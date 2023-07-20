@@ -12,16 +12,17 @@
 
     .hero-1 {
         grid-column: 1;
+        grid-row: 1;
     }
 
     .weather1 {
-        grid-column:1;
-        grid-row: 3;
+        grid-column: 1/4;
+        grid-row: 2;
     }
 
     .specialty {
-        grid-column: 2/4;
-        grid-row: 3;
+        grid-column: 3;
+        grid-row: 1;
     }
 
     .offers {
