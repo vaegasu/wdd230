@@ -21,6 +21,12 @@ div {
     gap: 10px;
 }
 
+.cards {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 10px;
+}
+
 section {
     border: 2px solid gray;
     border-radius: 5px;
