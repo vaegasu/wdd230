@@ -1,0 +1,21 @@
+@media only screen and (min-width: 32.5em) {
+    .grid1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    
+    .navigation li{
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .hero {
+        grid-column: 1 / 2;
+    
+    }
+    
+    .fruit-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+    }

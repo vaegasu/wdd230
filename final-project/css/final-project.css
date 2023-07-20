@@ -124,17 +124,17 @@ body {
     width: 100%;
 }
 
-.events div{
+.hero-1 div{
     display: block;
     text-align: center;
     align-items: center;
 }
 
-.events span{
+.hero-1 span{
     display: block;
 }
 
-.events img{
+.hero-1 img{
     max-width: 200px;
     padding: 10px;
 }
@@ -155,7 +155,7 @@ fieldset {
     max-width: 300px;
 }
 
-.temple-cards {
+.fruit-cards {
     background-color:#9dbebb;
     border: 2px solid gray;
     border-radius: 5px;
@@ -163,7 +163,7 @@ fieldset {
     overflow-wrap: break-word;
 }
 
-.temple-cards {
+.fruit-cards {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -173,12 +173,12 @@ fieldset {
     height: auto;
 }
 
-.temple-cards img{
+.fruit-cards img{
     max-width: 200px; 
     height: auto;
 }
 
-.temple-cards p{
+.fruit-cards p{
     display: block;
 }
 
