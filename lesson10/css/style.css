@@ -1,0 +1,27 @@
+body {
+    background-color: burlywood;
+    color: papayawhip;
+    font-family:'Lucida Sans', sans-serif;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    width:100%;
+    background-color:#1d3557;
+    color:white;
+    padding: 10px;
+    font-size: 20pt;
+}
+
+p{
+    font-size: 15pt;
+    border: 1px solid gray;
+    box-shadow: 0 2px 2px 0 gray;
+}
+
+img{
+    border: 3px dotted gray;
+}
