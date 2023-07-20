@@ -13,7 +13,7 @@ fetch(apiURL)
   document.querySelector('#weatherDesc').textContent= desc; 
 })
 
-const requestURL = "https://raw.githubusercontent.com/emrmason/wdd230/main/templeinn/data/temples.json";
+const requestURL = "https://raw.githubusercontent.com/vaegasu/wdd230/main/bountifulfruits/data/fruits.json";
 const cards = document.querySelector(".temple-cards");
 fetch(requestURL)
     .then(function(response){
