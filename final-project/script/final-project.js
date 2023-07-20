@@ -57,11 +57,42 @@ function displayTemples(fruit){
 
 // google maps //
 
-
 function myMap() {
 var mapProp= {
   center:new google.maps.LatLng(33.6558, 117.8002),
   zoom:5,
 };
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+// Current Date
+let date = document.getElementById("currentDate");
+
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
+date.innerHTML = fulldate;
+
+// Current Year 
+const currentYear = new Date();
+document.querySelector("#currentYear").textContent= currentYear.getFullYear();
+
+// Last Modified
+var temp = document.lastModified
+var n = parseInt(temp.substring(temp.length-8,temp.length-6))
+if (n>12) {
+    document.getElementById("#lastModified").innerHTML = "Last Updated: "+
+        temp.substring(0,temp.length-8)+(n-12)+temp.substring(temp.length-6)+" pm"
+}
+else {
+    document.getElementById("#lastModified").innerHTML = "Last Updated: "+
+        temp+" am"
+}
+
+function scrollDown(elem) {
+    if (elem.scrollTop < 100) {
+        document.querySelector('#scroll-down').className = "up"
+    }
+    else {
+        document.querySelector('#scroll-down').className = ""
+    }
+}
 }
