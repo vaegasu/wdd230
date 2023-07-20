@@ -68,13 +68,14 @@ header section {
     color: #37666c;
     font-family:'marcellus', serif;
     text-align: center;
+    text-decoration: none;
     padding: 0;
     margin: 0;
     border: 2px solid gray;
     border-radius: 5px; 
 }
 
-.navigation li {
+.navigation ul {
     display: inline-block;
     list-style: none;
     text-decoration: none;
@@ -164,10 +165,6 @@ fieldset {
     display: block;
     max-width: 300px; 
     align-items: center;
-}
-
-.offers img {
-    max-width: 300px;
 }
 
 .fruit-cards {
