@@ -24,8 +24,8 @@ header{
     display: grid;
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: 100%;
-    background-color: #37666C;
-    color: #fbf8ee;
+    background-color: white;
+    color: goldenrod;
     height: 200px;
     text-align: center;
     align-items: center;
