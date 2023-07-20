@@ -13,11 +13,11 @@ document.querySelector("#currentYear").textContent= currentYear.getFullYear();
 var temp = document.lastModified
 var n = parseInt(temp.substring(temp.length-8,temp.length-6))
 if (n>12) {
-    document.getElementById("lastModified").innerHTML = "Last Updated: "+
+    document.getElementById("#lastModified").innerHTML = "Last Updated: "+
         temp.substring(0,temp.length-8)+(n-12)+temp.substring(temp.length-6)+" pm"
 }
 else {
-    document.getElementById("lastModified").innerHTML = "Last Updated: "+
+    document.getElementById("#lastModified").innerHTML = "Last Updated: "+
         temp+" am"
 }
 
