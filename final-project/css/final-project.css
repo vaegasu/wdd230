@@ -20,7 +20,7 @@ Text-On-Dark-Color: #FBF8EE;
     margin: auto;
 }
 
-header{
+header {
     display: grid;
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: 100%;
