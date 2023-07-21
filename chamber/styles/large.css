@@ -236,6 +236,18 @@
         width: 40%;
     }
 
+    /*--------- Discover --------*/
+
+    main.discover {
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+        gap: 15px;
+    }   
+
+    div.discover {
+        max-width: 325px;
+    }
+
     /* --- footer --- */
 
     footer {
