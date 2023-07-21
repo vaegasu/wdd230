@@ -59,7 +59,7 @@ function displayTemples(fruit){
 
     
     picture.setAttribute("src", fruit.picture);
-    picture.setAttribute("alt", `${fruit.name} Temple`);
+    picture.setAttribute("alt", `${fruit.name}`);
     picture.setAttribute("loading", "lazy");
     card.setAttribute("class", "fruit-cards");
 
@@ -81,13 +81,6 @@ var mapProp= {
   zoom:5,
 };
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-// Current Date
-let date = document.getElementById("currentDate");
-
-const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
-date.innerHTML = fulldate;
 
 // Current Year 
 const currentYear = new Date();
