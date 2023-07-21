@@ -38,8 +38,8 @@ fetch(requestURL)
     })
     .then(function(jsonObject){
         console.table(jsonObject);
-        const temples = jsonObject['fruit'];
-        temples.forEach(displayFruit);
+        const fruits = jsonObject['fruit'];
+        fruits.forEach(displayFruit);
     });
 
 function displayTemples(fruit){
@@ -49,7 +49,6 @@ function displayTemples(fruit){
     let p2 = document.createElement('p');
     let p3 = document.createElement('p');
     let p4 = document.createElement('p');
-    let picture = document.createElement('img');
 
     h2.innerHTML= `${fruit.genus}`;
     p1.innerHTML= `Name: ${fruit.name}`;
