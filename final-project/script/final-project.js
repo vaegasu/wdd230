@@ -1,23 +1,32 @@
 const today = {month: 'long', day: 'numeric', year: 'numeric'};
 
-// weather //
+// weather api //
 
-const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=38.9807&lon=-77.1003&units=imperial&appid=6029cdcec6e4ff661fe81b24b74ac429";
-
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5810988&units=imperial&appid=6029cdcec6e4ff661fe81b24b74ac429";
 fetch(apiURL)
-.then((response) => response.json())
-.then((jsonObject) => {
-  document.querySelector('#temp').textContent = jsonObject.current.temp;
-  const iconsrc= `https://openweathermap.org/img/w/${jsonObject.weather[0].icon}.png`; 
-  const desc = jsonObject.weather[0].description;
-  document.querySelector('#weather-icon').setAttribute('src', iconsrc);
-  document.querySelector('#weather-icon').setAttribute('alt', desc);
-  document.querySelector('#weatherDesc').textContent= desc; 
-})
+  .then((response) => response.json())
+  .then((jsonObject) => {
+    document.querySelector('#temp').textContent = jsonObject.main.temp;
+    const iconsrc= `https://openweathermap.org/img/w/${jsonObject.weather[0].icon}.png`; 
+    const desc = jsonObject.weather[0].description;
+    // desc = desc.split(' ').map(capitalize).join(' ');
+    const windspeed = jsonObject.wind.speed;
+    document.querySelector('#weather-icon').setAttribute('src', iconsrc);
+    document.querySelector('#weather-icon').setAttribute('alt', desc);
+    document.querySelector('#weatherDesc').textContent= desc; 
+    document.querySelector('#speed').textContent = windspeed;
 
-const currentTemp = document.querySelector('#current-temp');
-const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('figcaption');
+    let t = jsonObject.main.temp;   
+    let wc = '';
+
+      if (t <= 50 && windspeed > 3) {
+        wc = parseFloat(35.74 + (0.6215 * t) - (35.75 * Math.pow(windspeed,0.16)) + (0.4275 * t * Math.pow(windspeed,0.16))).toFixed(2);
+        document.getElementById('chill').innerHTML = `${wc} &#176;F`;
+      }
+      else {
+        document.getElementById('chill').innerHTML= 'N/A';
+        }
+  });
 
 // fruit-cards //
 
