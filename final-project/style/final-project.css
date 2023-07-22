@@ -15,7 +15,7 @@ Tile background: #9DBEBB;
 Text-On-Dark-Color: #FBF8EE;
 */
 
-*{
+* {
     max-width: 1250px;
     margin: auto;
 }
