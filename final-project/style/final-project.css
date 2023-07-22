@@ -214,6 +214,49 @@ fieldset {
     border-radius: 5px;
 }
 
+/* --- forecast --- */
+
+.five-day {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 650px;
+}
+
+.five-day section {
+    border: solid 0.5px black;
+    padding: 0;
+}
+
+.five-day div {
+    margin: 0 auto;
+}
+
+.five-day h4 {
+    text-shadow: 1px 1px 1px gray;
+    background-color: #37666c;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+.five-day span {
+    color: black;
+    text-align: center;
+    padding: 0.5rem;
+    display: block;
+}
+
+.weather-icon img {
+    display: block;
+    margin: 10px auto;
+    transform: scale(1.5);
+    filter: drop-shadow(1px 1px 1px gray);
+}
+
+/* --- footer --- */
+
 footer {
     display: block;
     background-color: #eed595;

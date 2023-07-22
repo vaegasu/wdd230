@@ -1,6 +1,4 @@
-const today = {month: 'long', day: 'numeric', year: 'numeric'};
-
-// weather api //
+// --- weather api --- //
 
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5810988&units=imperial&appid=6029cdcec6e4ff661fe81b24b74ac429";
 fetch(apiURL)
@@ -28,7 +26,7 @@ fetch(apiURL)
         }
   });
 
-// fruit-cards //
+// --- fruit-cards --- //
 
 const requestURL = "https://brotherblazzard.github.io/canvas-content/fruit.json";
 const cards = document.querySelector(".fruit-cards");
@@ -56,23 +54,16 @@ function displayTemples(fruit){
     p3.innerHTML = `Order: ${fruit.order}`;
     p4.innerHTML = `Nutritions: ${fruit.nutritions}`
 
-    
-    picture.setAttribute("src", fruit.picture);
-    picture.setAttribute("alt", `${fruit.name}`);
-    picture.setAttribute("loading", "lazy");
-    card.setAttribute("class", "fruit-cards");
-
     card.appendChild(h2);
     card.appendChild(p1);
     card.appendChild(p2);
     card.appendChild(p3);
     card.appendChild(p4);
-    card.appendChild(picture);
 
     cards.appendChild(card);
 }
 
-// google maps //
+// --- google maps --- //
 
 function myMap() {
 var mapProp= {
@@ -81,33 +72,7 @@ var mapProp= {
 };
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
-// Current Year 
-const currentYear = new Date();
-document.querySelector("#currentYear").textContent= currentYear.getFullYear();
-
-// Last Modified
-var temp = document.lastModified
-var n = parseInt(temp.substring(temp.length-8,temp.length-6))
-if (n>12) {
-    document.getElementById("#lastModified").innerHTML = "Last Updated: "+
-        temp.substring(0,temp.length-8)+(n-12)+temp.substring(temp.length-6)+" pm"
-}
-else {
-    document.getElementById("#lastModified").innerHTML = "Last Updated: "+
-        temp+" am"
-}
-
-function scrollDown(elem) {
-    if (elem.scrollTop < 100) {
-        document.querySelector('#scroll-down').className = "up"
-    }
-    else {
-        document.querySelector('#scroll-down').className = ""
-    }
-}
-}
-
-// lazy load //
+// --- lazy load --- //
 
 const images = document.querySelectorAll("[data-src]");
 
@@ -140,3 +105,48 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
 images.forEach(image => {
     imgObserver.observe(image);
 })
+
+// --- 5-day weather forecast --- //
+
+let now = new Date()
+let months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+]
+let weekDays = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+]
+document.querySelector('footer .current-date').innerHTML = weekDays[now.getDay()]+", "
+                                                          +months[now.getMonth()]+" "
+                                                          +now.getDate()+", "
+                                      
+var days = [
+    "Sun",
+    "Mon",
+    "Tues",
+    "Wed",
+    "Thurs",
+    "Fri",
+    "Sat"
+]
+var day = new Date().getDay()
+for (let i = 0; i<5; i++) {
+    document.getElementById("day"+(i+1)).innerHTML = days[(today+i)%days.length]
+}
+}
