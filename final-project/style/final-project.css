@@ -259,6 +259,50 @@ fieldset {
     filter: drop-shadow(1px 1px 1px gray);
 }
 
+/* --- contact --- */
+
+section.contact-info {
+    position: relative;
+    left: -1rem;
+    width: 100%;
+    padding: 1rem;
+    display: grid;
+    background-color: var(--default-dark);
+    grid-template-columns: 50% auto;
+    box-shadow: 0 0 10px var(--default-dark);
+}
+
+section.contact-info iframe {
+    grid-row: span 3;
+    grid-column: 1;
+    height: 200px;
+    width: 90%;
+    border: 0;
+}
+
+section.contact-info h3, section.contact-info ul {
+    margin-top: 0;
+    text-align: left;
+    color: var(--default-light);
+}
+
+section.contact-info ul {
+    margin-bottom: 0;
+}
+
+section.contact-info li {
+    padding-top: 3px;
+}
+
+section.contact-info li i {
+    transition: transform 0.2s, color 0.4s;
+}
+
+section.contact-info li:hover i {
+    color: var(--main-color);
+    transform: scale(1.5);
+}
+
 /* --- footer --- */
 
 footer {
