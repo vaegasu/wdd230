@@ -64,6 +64,13 @@ async function displayFruits(fruits) {
 }
 getFruitData();
 
+// --- information display --- //
+
+function showInput() {
+    document.getElementById('display').innerHTML = 
+                document.getElementById("user_input").value;
+}
+
 // --- google maps --- //
 
 function myMap() {

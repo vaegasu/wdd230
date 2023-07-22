@@ -209,6 +209,10 @@ fieldset {
     display: block;
 }
 
+.order {
+    text-align: center;
+}
+
 .services ul {
     border: 2px solid gray;
     border-radius: 5px;
