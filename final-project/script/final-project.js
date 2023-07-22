@@ -29,39 +29,40 @@ fetch(apiURL)
 // --- fruit-cards --- //
 
 const requestURL = "https://brotherblazzard.github.io/canvas-content/fruit.json";
-const cards = document.querySelector(".fruit-cards");
-fetch(requestURL)
-    .then(function(response){
-        return response.json();
-    })
-    .then(function(jsonObject){
-        console.table(jsonObject);
-        const fruits = jsonObject['fruit'];
-        fruits.forEach(displayFruit);
-    });
 
-function displayTemples(fruit){
-    let card= document.createElement('section');
-    let h2 = document.createElement('h2');
-    let p1 = document.createElement('p');
-    let p2 = document.createElement('p');
-    let p3 = document.createElement('p');
-    let p4 = document.createElement('p');
-
-    h2.innerHTML= `${fruit.genus}`;
-    p1.innerHTML= `Name: ${fruit.name}`;
-    p2.innerHTML = `Family: ${fruit.family}`;
-    p3.innerHTML = `Order: ${fruit.order}`;
-    p4.innerHTML = `Nutritions: ${fruit.nutritions}`
-
-    card.appendChild(h2);
-    card.appendChild(p1);
-    card.appendChild(p2);
-    card.appendChild(p3);
-    card.appendChild(p4);
-
-    cards.appendChild(card);
+async function getFruitData() {
+    const response = await fetch(url);
+    const data = await response.json();
+    displayFruits(data.fruits);
 }
+
+async function displayFruits(fruits) {
+    const cards = document.querySelector("fruit-cards");
+
+    fruits.forEach((fruit) => {
+        let card = document.createElement('section');
+        let h2 = document.createElement('h2');
+        let p1 = document.createElement('p');
+        let p2 = document.createElement('p');
+        let p3 = document.createElement('p');
+        let p4 = document.createElement('p');
+
+        h2.innerHTML= `${fruit.genus}`;
+        p1.innerHTML= `Name: ${fruit.name}`;
+        p2.innerHTML = `Family: ${fruit.family}`;
+        p3.innerHTML = `Order: ${fruit.order}`;
+        p4.innerHTML = `Nutritions: ${fruit.nutritions}`
+
+        card.appendChild(h2);
+        card.appendChild(p1);
+        card.appendChild(p2);
+        card.appendChild(p3);
+        card.appendChild(p4);
+
+        cards.appendChild(card);    
+    })
+}
+getFruitData();
 
 // --- google maps --- //
 
@@ -71,6 +72,7 @@ var mapProp= {
   zoom:5,
 };
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
 
 // --- lazy load --- //
 
@@ -105,48 +107,3 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
 images.forEach(image => {
     imgObserver.observe(image);
 })
-
-// --- 5-day weather forecast --- //
-
-let now = new Date()
-let months = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
-]
-let weekDays = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
-]
-document.querySelector('footer .current-date').innerHTML = weekDays[now.getDay()]+", "
-                                                          +months[now.getMonth()]+" "
-                                                          +now.getDate()+", "
-                                      
-var days = [
-    "Sun",
-    "Mon",
-    "Tues",
-    "Wed",
-    "Thurs",
-    "Fri",
-    "Sat"
-]
-var day = new Date().getDay()
-for (let i = 0; i<5; i++) {
-    document.getElementById("day"+(i+1)).innerHTML = days[(today+i)%days.length]
-}
-}
