@@ -119,7 +119,7 @@ async function displayFruits(fruits) {
     let p3 = document.createElement("p");
     let p4 = document.createElement("p");
 
-    h2.innerHTML = `${fruit.genus}`;
+    h2.innerHTML = `${fruit.name}`;
     p1.innerHTML = `Name: ${fruit.name}`;
     p2.innerHTML = `Family: ${fruit.family}`;
     p3.innerHTML = `Order: ${fruit.order}`;
@@ -196,12 +196,19 @@ for (let i = 0; i < 5; i++) {
 }
 
 // --- event display info --- //
-function testResults (BuildForm) {
-  var inputValue = form.showInput.onclick;
-  alert ("Your order: " + showInput);
-}
 
-document.getElementById(BuildForm).action
+$(function() {
+  $('#Search').on('submit', function() {
+    event.preventDefault();
+    var url = 'https://api.hackertarget.com/aslookup/';
+    var data = $('#Search').serialize();
+
+    $.ajax(url + 'Your Order:' + data).then(function(data) {
+      $('.output').text(data);
+    });
+  });
+});
+
 
 
 
