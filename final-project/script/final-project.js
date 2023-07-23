@@ -196,13 +196,14 @@ for (let i = 0; i < 5; i++) {
 }
 
 // --- event display info --- //
-const infoEvent = new Event("customInfo", {bubbles: true, cancelable: true, conposed: true})
+function testResults (BuildForm) {
+  var inputValue = form.inputbox.value;
+  alert ("Your order: " + inputValue);
+}
 
-document.addEventListener("customInfo", e => {
-  console.log(e)
-})
+document.getElementById(BuildForm).action
 
-document.dispatechEvent(infoEvent)
+
 
 
 
