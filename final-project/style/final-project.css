@@ -315,3 +315,14 @@ footer {
     padding: 0;
     margin: 0;
 }
+
+/* --- thankyou.html ---*/
+
+.ty {
+    border: 2px solid gray;
+    border-radius: 5px; 
+}
+
+.ty img {
+    display: block;
+}
