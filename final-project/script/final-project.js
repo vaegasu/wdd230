@@ -197,13 +197,11 @@ for (let i = 0; i < 5; i++) {
 
 // --- event display order --- //
 
-const input = document.getElementById("checkbox");
-
-const button = document.getElementById("button");
+const input = document.getElementById("submit");
 
 const list = document.getElementById("fruits");
 
-button.addEventListener("click", function() {
+input.addEventListener("click", function() {
     let inputLen = input.value;
     if (inputLen.length > 0)
     {
