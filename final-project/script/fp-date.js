@@ -1,15 +1,18 @@
-// Current Date
+// Current Date //
+
 let date = document.getElementById("#currentDate");
 
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
 date.innerHTML = fulldate;
 
-// Current Year 
-const yearCurrent = new Date();
-document.querySelector("#currentYear").textContent= currentYear.getFullYear();
+// Current Year //
 
-// Last Modified
+const yearCurrent = new Date();
+document.querySelector("#year").textContent= currentYear.getFullYear();
+
+// Last Modified //
+
 var temp = document.lastModified
 var n = parseInt(temp.substring(temp.length-8,temp.length-6))
 if (n>12) {
