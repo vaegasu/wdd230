@@ -206,7 +206,7 @@ input.addEventListener("click", function() {
     if (inputLen.length > 0)
     {
         const li = document.createElement("li");
-        const deleteBtn = document.createElement("button");
+        const deleteBtn = document.createElement("input");
         li.innerHTML = inputLen;
         deleteBtn.textContent = "❌";
         li.appendChild(deleteBtn);
