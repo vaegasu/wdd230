@@ -218,6 +218,16 @@ fieldset {
     border-radius: 5px;
 }
 
+/* --- about us --- */
+
+.history {
+    display:block;
+    border: 2px solid gray;
+    border-radius: 4px; 
+    background-color: #9dbebb;
+    width: 100%;
+}
+
 /* --- forecast --- */
 
 .five-day {
