@@ -259,6 +259,14 @@ fieldset {
     filter: drop-shadow(1px 1px 1px gray);
 }
 
+/* --- about us --- */
+
+main .history {
+    border: 2px solid gray;
+    border-radius: 5px;
+
+}
+
 /* --- contact --- */
 
 section.contact-info {
