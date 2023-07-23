@@ -75,7 +75,7 @@ header section {
     border-radius: 5px; 
 }
 
-.navigation ul {
+.navigation li {
     display: inline-block;
     list-style: none;
     text-decoration: none;
