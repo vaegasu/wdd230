@@ -197,8 +197,8 @@ for (let i = 0; i < 5; i++) {
 
 // --- event display info --- //
 function testResults (BuildForm) {
-  var inputValue = form.inputbox.value;
-  alert ("Your order: " + inputValue);
+  var inputValue = form.showInput.onclick;
+  alert ("Your order: " + showInput);
 }
 
 document.getElementById(BuildForm).action
