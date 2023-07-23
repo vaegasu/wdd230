@@ -209,8 +209,8 @@ fieldset {
     display: block;
 }
 
-.order {
-    text-align: center;
+.info p {
+    font-style: italic;
 }
 
 .services ul {
