@@ -195,19 +195,34 @@ for (let i = 0; i < 5; i++) {
     days[(today + i) % days.length];
 }
 
-// --- event display info --- //
+// --- event display order --- //
 
-$(function() {
-  $('#Search').on('submit', function() {
-    event.preventDefault();
-    var url = 'https://api.hackertarget.com/aslookup/';
-    var data = $('#Search').serialize();
+const input = document.getElementById("checkbox");
 
-    $.ajax(url + 'Your Order:' + data).then(function(data) {
-      $('.output').text(data);
-    });
-  });
+const button = document.getElementById("button");
+
+const list = document.getElementById("fruits");
+
+button.addEventListener("click", function() {
+    let inputLen = input.value;
+    if (inputLen.length > 0)
+    {
+        const li = document.createElement("li");
+        const deleteBtn = document.createElement("button");
+        li.innerHTML = inputLen;
+        deleteBtn.textContent = "❌";
+        li.appendChild(deleteBtn);
+        list.appendChild(li);
+
+        deleteBtn.addEventListener("click", () => {
+            list.removeChild(li);
+        });
+        input.value = "";
+        input.focus();
+    }
 });
+
+
 
 
 
