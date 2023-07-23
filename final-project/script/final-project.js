@@ -194,3 +194,15 @@ for (let i = 0; i < 5; i++) {
   document.getElementById("day" + (i + 1)).innerHTML =
     days[(today + i) % days.length];
 }
+
+// --- event display info --- //
+const infoEvent = new Event("customInfo", {bubbles: true, cancelable: true, conposed: true})
+
+document.addEventListener("customInfo", e => {
+  console.log(e)
+})
+
+document.dispatechEvent(infoEvent)
+
+
+
