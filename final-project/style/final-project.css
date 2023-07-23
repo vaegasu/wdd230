@@ -218,6 +218,32 @@ fieldset {
     border-radius: 5px;
 }
 
+/* --- fresh --- */
+
+.freshpage {
+    display: grid;
+    grid-template-columns: 2;
+    grid-row: 1;
+    border: 2px solid gray;
+    border-radius: 4px; 
+    background-color: #9dbebb;
+}
+
+.form {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.buildform {
+    background-color: #73d2de;
+}
+
+.order {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #73d2de;
+}
+
 /* --- about us --- */
 
 .history {
