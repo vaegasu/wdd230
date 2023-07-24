@@ -1,26 +1,17 @@
-// Current Date //
+// Set the year for copyright //
 
-let date = document.getElementById("#currentDate");
+document.getElementById("year").innerHTML = new Date().getFullYear()
 
-const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
-date.innerHTML = fulldate;
-
-// Current Year //
-
-const yearCurrent = new Date();
-document.querySelector("#year").textContent= currentYear.getFullYear();
-
-// Last Modified //
+// Set the date when last updated //
 
 var temp = document.lastModified
 var n = parseInt(temp.substring(temp.length-8,temp.length-6))
 if (n>12) {
-    document.getElementById("lastModified").innerHTML = "Last Updated: "+
+    document.getElementById("updated").innerHTML = "Last Updated: "+
         temp.substring(0,temp.length-8)+(n-12)+temp.substring(temp.length-6)+" pm"
 }
 else {
-    document.getElementById("lastModified").innerHTML = "Last Updated: "+
+    document.getElementById("updated").innerHTML = "Last Updated: "+
         temp+" am"
 }
 
