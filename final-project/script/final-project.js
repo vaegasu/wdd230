@@ -197,17 +197,18 @@ for (let i = 0; i < 5; i++) {
 
 // --- event display order --- //
 
-function orderForm() {
-  debugger
-  var date = document.getElementById("formDate").value;
-  var name = document.getElementById("formName").value;
-  var email = document.getElementById("formEmail").value;
-  var phone = document.getElementById("formPhone").value;
-  document.getElementById("h2").innerHTML = date;
-  document.getElementById("p1").innerHTML = name;
-  document.getElementById("p2").innerHTML = email;
-  document.getElementById("p3").innerHTML = phone;
+const submit = document.getElementById("submit");
+const email = document.getElementById("formEmail");
+const userName = document.getElementById("formName");
+const orderName = document.getElementById("orderName");
+
+function showOrder(inputName) {
+  orderName.innertext = inputName;
 }
+
+submit.addEventListener('click', () => {
+  console.log(userName.value)
+})
 
 
 
