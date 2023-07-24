@@ -48,7 +48,9 @@ header section {
 }
 
 .navigation {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     background-color: #eed595;
     color: #37666c;
     font-family:'marcellus', serif;
@@ -61,7 +63,7 @@ header section {
 }
 
 .navigation li {
-    display: inline-block;
+
     list-style: none;
     text-decoration: none;
     padding: 10px 15px 10px 15px;
