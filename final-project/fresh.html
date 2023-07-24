@@ -11,6 +11,19 @@
     <link href="style/final-project.css" rel="stylesheet">
     <link href="style/medium.css" rel="stylesheet">
     <link href="style/large.css" rel="stylesheet">
+    <script>
+        function orderForm() {
+            debugger
+            var date = document.getElementById("formDate").value;
+            var name = document.getElementById("formName").value;
+            var email = document.getElementById("formEmail").value;
+            var phone = document.getElementById("formPhone").value;
+            document.getElementById("h2").innerHTML = date;
+            document.getElementById("p1").innerHTML = name;
+            document.getElementById("p2").innerHTML = email;
+            document.getElementById("p3").innerHTML = phone;
+        }
+    </script>
 </head>
 
 <header>
@@ -132,8 +145,7 @@
         </div>
         <hr>
         <br>
-        &copy; <span id="year"></span> Bountiful Foods | Vae Gasu | WDD 230 Final Project | <span
-            id="updated"></span>
+        &copy; <span id="year"></span> Bountiful Foods | Vae Gasu | WDD 230 Final Project | <span id="updated"></span>
         <br>
         <br>
         <script src="script/fp-date.js"></script>
