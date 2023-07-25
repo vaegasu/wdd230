@@ -43,7 +43,6 @@
                                 required></label><br>
                         E-mail: <label class="persinfo"><input type="text" id="formEmail" required></label><br>
                         <label class="persinfo">Phone: <input type="text" id="formPhone" required></label><br>
-                        <label class="resdates">Date of Order: <input type="text" id="formDate" required></label><br>
                     </h3>
                 </fieldset>
                 <fieldset>
@@ -98,9 +97,9 @@
                         <h2>▪️ Special Instruction ▪️</h2>
                     </legend>
                     <textarea id="story" name="story" rows="5" cols="55">
-      Special Instruction...
+      Special Instruction -
       </textarea>
-                    <input type="submit" id="submit" value="submit" onclick="showInput();">
+                    <input type="button" value="Submit" id="btnSubmit" onclick="fruitVariable()">
                 </fieldset>
                 <br>
             </form>
@@ -108,10 +107,18 @@
         <br>
         <section class="order">
             <fieldset>
-                <legend>
-                    <h2>▪️ Your order ▪️</h2>
-                    <h3 id="orderName" class="text-light"> </h3>
-                </legend>
+                <h2>▪️ Your order ▪️</h2>
+                <div>
+                    <h3>Name:</h3>
+                    <p id="p1"></p>
+                    <h3>Email:</h3>
+                    <p id="p2"></p>
+                    <h3>Phone:</h3>
+                    <p id="p3"></p>
+                    <h3>Choice of fruits:</h3>
+                    <p id="p4"></p>
+                    <p id="p5"></p>
+                </div>
             </fieldset>
         </section>
     </main>

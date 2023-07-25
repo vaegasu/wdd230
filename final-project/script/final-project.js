@@ -197,18 +197,21 @@ for (let i = 0; i < 5; i++) {
 
 // --- event display order --- //
 
-const submit = document.getElementById("submit");
-const email = document.getElementById("formEmail");
-const userName = document.getElementById("formName");
-const orderName = document.getElementById("orderName");
+function fruitVariable() {
+  debugger
+  var strText = document.getElementById("formName").value;
+  var strText1 = document.getElementById("formEmail").value;
+  var strText2 = document.getElementById("formPhone").value;
+  var strText3 = document.getElementById("fruit").value;
+  var strText4 = document.getElementById("story").value;
 
-function showOrder(inputName) {
-  orderName.innertext = inputName;
+  document.getElementById("p1").innerHTML = strText;
+  document.getElementById("p2").innerHTML = strText1;
+  document.getElementById("p3").innerHTML = strText2;
+  document.getElementById("p4").innerHTML = strText3;
+  document.getElementById("p5").innerHTML = strText4;
+
 }
-
-submit.addEventListener('click', () => {
-  console.log(userName.value)
-})
 
 
 
